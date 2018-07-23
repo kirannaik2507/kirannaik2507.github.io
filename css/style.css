@@ -30,6 +30,51 @@
     }
  
 }
+/**work img hover ***/
+#works .container-work 
+{
+    height: 250px;
+    position: relative;
+    width: 100%;
+}
+
+
+#works .image {
+  width: 100%;
+  height: auto;
+}
+
+
+#works .overlay 
+{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #ec6a68;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  transform: scale(0);
+  transition: .5s ease;
+}
+
+#works .container-work:hover .overlay 
+{
+  transform: scale(1);
+}
+
+#works .text 
+{
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+/****work img hover****/
 #works
 {
     background: #3a3038;  
@@ -37,10 +82,20 @@
 }
 .btn
 {
-    text-transform: uppercase;
+
     border: 0;
     color: #fff;
     border-radius: 2px;
+}
+#works .container-fluid p
+{
+    font-size: 16px;
+}
+#works .container-fluid .btn
+{
+    border: 1px solid #fff;
+    background: none;
+    color: #fff;
 }
 .banner-text .btn
 {
@@ -221,9 +276,8 @@ section
 #works img
 {
     height: 250px;
-    width: 95%;
-    margin: 2%;
-    padding: 0;
+    width: 100%;
+  
 }
 #works .container-fluid
 {
@@ -235,10 +289,10 @@ section
     background-color: #3a3038;
     color: #ffffff;
     text-align: center;
-    display: none; /* Hidden by default */
+    display: none; 
 }
 
-/* The "show" class is added to the filtered elements */
+
 .show {
     display: block;
 }
@@ -263,7 +317,7 @@ section
     transition: .5s ease;
     opacity: 0;
     position: absolute;
-    top: 60%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
