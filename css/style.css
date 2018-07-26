@@ -16,9 +16,23 @@
         width: 175px;
         text-align: center;
     }
+    
 }
 @media screen and (min-width: 120px) and (max-width: 991px)
 {
+    #team .list-inline a 
+    {
+        border: 1px solid #EC6A68;
+        border-radius: 50%;
+        display: block;
+        width: 36px;
+        height: 36px;
+        color: #EC6A68;
+        padding-top: 9px;
+        font-size: 24px;
+        text-align: center;
+        line-height: 89px;
+    }
     #abt .col-md-4
     {
         text-align: center;
@@ -32,6 +46,18 @@
     {
         text-align: center;
     }
+    .list-inline>li 
+    {
+        
+        padding-right: 0;
+       
+    }
+    .col-md-12, .col-md-6
+    {
+        margin: 0;
+        padding: 0;
+    }
+    
  
 }
 p
