@@ -1,13 +1,16 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script src="jq/jquery-1.11.1.min.js"></script>
 <script src="boos/bootstrap.min.js"></script>  
 <link rel="stylesheet" href="boos/bootstrap.min.css">
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-
+<link rel="stylesheet" href="css/animate.css">
+<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro|Titillium+Web" rel="stylesheet">
 <style>
 
 </style>
@@ -26,7 +29,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#"><img src="images/Untitled-1.png" height="100px"></a>
+      <a class="navbar-brand" href="#"><img src="images/logo.png" height="50px"></a>
     </div>
     <div>
       <div class="collapse navbar-collapse" id="myNavbar"  style="float: right;">
@@ -47,7 +50,7 @@
         <h2>Hello I am</h2>
         <h1>Kiran Naik</h1>
         <h3>UI Designer / Frontend Developer</h3>
-        <a href="#find" class="btn btn-lg">Find out more</a>
+        <a href="#find" class="btn btn-lg">Find Out More</a>
     </div>
 </div>
 <section id="about_me" >
@@ -71,15 +74,15 @@
                 <h3>Address</h3>
                 <p>Benglore, Jayanagar</p>
                 <h3>Mobile</h3>
-                <p>+91 89756070</p>
+                <p>+91 8975609670</p>
                 <h3>Email</h3>
                 <p>kirannaik2507@gmail.com</p>
             </div>
             <div class="row abt-text">
                 <div class="col-md-12 text-center ">
-                    <p>I am a web designer / developer. I have a passion for web design and love to create for web and mobile devices.
+                    <p>I am a Web Designer / Developer. I have a passion for web design and love to create Websites for web and mobile devices.
                     </p>
-                    <input type="submit" class="btn btn-lg" value="Download Resume">
+                    <a class="btn btn-lg" value="">Download Resume</a>
                 </div>
             </div>
         </div>
@@ -95,35 +98,35 @@
                    
                 <div class="row text-left">
                     <div class="hb col-sm-6 col-xs-6" >                                    	
-                        <img src="images/hobbie/ic_import_contacts_black_24dp_1x.png" >
-                        <h4>Reading</h4>
+                        <img src="images/hobbie/study.png" >
+                        <h4>Study</h4>
                     </div>
                     <div class="hb col-sm-6 col-xs-6">
-                        <img src="images/hobbie/ic_directions_bike_black_24dp_1x.png">
+                        <img src="images/hobbie/bike.png">
                         <h4>Cycling</h4>
                     </div>
                     <div class="hb col-sm-6 col-xs-6">	
-                        <img src="images/hobbie/ic_drive_eta_black_24dp_1x.png">
+                        <img src="images/hobbie/sports-car.png">
                         <h4>Driving</h4>
                     </div>
                     <div class="hb col-sm-6 col-xs-6">
-                        <img src="images/hobbie/ic_keyboard_black_24dp_1x.png">
+                        <img src="images/hobbie/black-keyboard-with-white-keys.png">
                         <h4>Coding</h4>
                     </div>
                     <div class="hb col-sm-6 col-xs-6">	
-                        <img src="images/hobbie/ic_headset_black_24dp_1x.png" >
+                        <img src="images/hobbie/music-player.png" >
                         <h4>Listening Music</h4>
                     </div>
                     <div class="hb col-sm-6 col-xs-6" >
-                        <img src="images/hobbie/ic_live_tv_black_24dp_1x.png">
+                        <img src="images/hobbie/television.png">
                         <h4>Watching TV</h4>
                     </div>
                     <div class="hb col-sm-6 col-xs-6" >
-                        <img src="images/hobbie/ic_photo_camera_black_24dp_1x.png" >
-                        <h4>Photography</h4>
+                        <img src="images/hobbie/icon.png" >
+                        <h4>Jogging</h4>
                     </div>
                     <div class="hb col-sm-6 col-xs-6">
-                        <img src="images/hobbie/ic_room_service_black_24dp_1x.png">
+                        <img src="images/hobbie/cooking-on-fire.png">
                         <h4>Cooking</h4>
                     </div>
                 </div>
@@ -166,7 +169,7 @@
         <div class="row">
             <div class="text-center panel-heading"><h1>Works</h1></div>
             <div id="myBtnContainer">
-              <button class="btn active col-md-3 col-sm-12 col-xs-12" onclick="filterSelection('all')">All Works</button>
+              <button class="btn activetab col-md-3 col-sm-12 col-xs-12" onclick="filterSelection('all')">All Works</button>
               <button class="btn col-md-3 col-sm-12 col-xs-12" onclick="filterSelection('cars')"> UI Design</button>
               <button class="btn col-md-3 col-sm-12 col-xs-12" onclick="filterSelection('animals')">Frontend Coding</button>
               <button class="btn col-md-3 col-sm-12  col-xs-12" onclick="filterSelection('fruits')"> Graphic Desing</button>
@@ -185,7 +188,7 @@
                         <div class="text">
                             <h3>Hairzone Salon</h3>
                             <p>Using Photoshop and Illustrator</p>
-                            <a href="images/works/Untitled-1.jpg" target="_blank" class="btn btn-lg">View More</a>    
+                            <a href="images/works/Untitled-1.jpg" target="_blank" class="btn btn-lg">View Large</a>    
                         </div>
                     </div>
                 </div>
@@ -197,7 +200,7 @@
                         <div class="text">
                             <h3>Poster Design</h3>
                             <p>Using Photoshop</p>
-                            <a href="images/works/graph1.jpg"  target="_blank" class="btn btn-lg">View More</a>
+                            <a href="images/works/graph1.jpg"  target="_blank" class="btn btn-lg">View Large</a>
                         </div>
                     </div>
                 </div>
@@ -209,7 +212,7 @@
                         <div class="text">
                             <h3>Ray Laptops</h3>
                             <p>Using Photoshop and Illustrator</p>
-                            <a href="images/works/Ray_Layout---Copy.jpg"  target="_blank" class="btn btn-lg">View More</a>
+                            <a href="images/works/Ray_Layout---Copy.jpg"  target="_blank" class="btn btn-lg">View Large</a>
                         </div>
                     </div>
                 </div>
@@ -221,7 +224,7 @@
                         <div class="text">
                             <h3>Vector Design</h3>
                             <p>Using Illustrator</p>
-                            <a href="images/works/graph2.jpg"  target="_blank" class="btn btn-lg">View More</a>
+                            <a href="images/works/graph2.jpg"  target="_blank" class="btn btn-lg">View Large</a>
                         </div>
                     </div>
                 </div>
@@ -234,7 +237,7 @@
                         <div class="text">
                             <h3>Isometric Design</h3>
                             <p>Using Illustrator</p>
-                            <a href="images/works/graph3.jpg"  target="_blank" class="btn btn-lg">View More</a>
+                            <a href="images/works/graph3.jpg"  target="_blank" class="btn btn-lg">View Large</a>
                         </div>
                     </div>
                 </div>
@@ -246,7 +249,7 @@
                         <div class="text">
                             <h3>Darshan Hotel</h3>
                             <p>Using Dreamviwer , Html, Css and Javascript</p>
-                            <a href="images/works/hotel.png"  target="_blank" class="btn btn-lg">View More</a>
+                            <a href="images/works/hotel.png"  target="_blank" class="btn btn-lg">View Large</a>
                         </div>
                     </div>
                 </div>
@@ -258,7 +261,7 @@
                         <div class="text">
                             <h3>Visiting Card</h3>
                             <p>Using Illustrator</p>
-                            <a href="images/works/graph4.jpg"  target="_blank" class="btn btn-lg">View More</a>
+                            <a href="images/works/graph4.jpg"  target="_blank" class="btn btn-lg">View Large</a>
                         </div>
                     </div>
                 </div>
@@ -270,7 +273,7 @@
                         <div class="text">
                             <h3>Cinema App</h3>
                             <p>Using Photoshop and Illustrator</p>
-                            <a href="images/works/ui3.jpg"  target="_blank" class="btn btn-lg">View More</a>
+                            <a href="images/works/ui3.jpg"  target="_blank" class="btn btn-lg">View Large</a>
                         </div>
                     </div>
                 </div>
@@ -350,22 +353,22 @@
                 <div class="serv-img">
                     <img src="images/graph.png">
                 </div>
-                <h4>Ui Desing</h4>
-                <p>Lonrerlkd f kfjdfk dldjkfjdldjf ljdldjfdkjlf jdkfdl</p>
+                <h3>UI Design</h3>
+                <p>UI Design proccess performed using Photoshop, Illustrator and XD.</p>
             </div>
             <div class="col-md-4">
                 <div class="serv-img">
                     <img src="images/code.png">
                 </div>
-                <h4>Frontend Coding</h4>
-                <p>kfdjlf djljlfj kjlkdjflkj kdlfkjdfl</p>
+                <h3>Frontend Coding</h3>
+                <p>After Ui Design Coding starting with Html, Css, Javascript and Jquery.</p>
             </div>
             <div class="col-md-4">
                 <div class="serv-img">
                     <img src="images/ui.png">
                 </div>
-                <h4>Graphic Desing</h4>
-                <p>kfdjlf djljlfj kjlkdjflkj kdlfkjdfl</p>
+                <h3>Graphic Design</h3>
+                <p>Photoshop, Illustrator and Indesign tools used for Graphic Designing work</p>
             </div>
         </div>
     </div>
@@ -376,35 +379,35 @@
     <div class="text-center panel-heading"><h1>Contact Me</h1></div>
     <div class="container">
         <div class="row">
-            <div class="col-sm-2"></div>
-            <div class="col-sm-4">
+            <div class="col-md-2"></div>
+            <div class="col-md-4">
                 <input type="text" class="form-control" placeholder="Name" id="name">
             </div>
-            <div class="col-sm-4">
+            <div class="col-md-4">
                 <input type="text" class="form-control"  placeholder="Email" id="email">
             </div>
-            <div class="col-sm-2"></div>
+            <div class="col-md-2"></div>
         </div>
         <div class="row">
-            <div class="col-sm-2"></div>
-            <div class="col-sm-4">
+            <div class="col-md-2"></div>
+            <div class="col-md-4">
                 <input type="text" class="form-control" min="1" max="10" placeholder="Mobile" id="mobile">
             </div>
-            <div class="col-sm-4">
+            <div class="col-md-4">
                 <input type="text" class="form-control"  placeholder="Subject" id="subject">
             </div>
-            <div class="col-sm-2"></div>
+            <div class="col-md-2"></div>
         </div>
         <div class="row">
-            <div class="col-sm-2"></div>
-            <div class="col-sm-8">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
                 <input type="text" class="form-control msg"  placeholder="Message" id="msg">
             </div>
-            <div class="col-sm-2"></div>
+            <div class="col-md-2"></div>
         </div>
         <div class="row text-left">
-            <div class="col-sm-2"></div>
-            <div class="col-sm-8">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
                 <input type="submit" class="btn btn-lg send" value="Send" onclick="valid()">
             </div>
             
@@ -419,10 +422,10 @@
 <div class="container-fluid text-center">
     <div class="row ">
         <ul class="list-inline ">
-            <li><a href="#" class=""><span class="fa fa-facebook"></span></a></li>
-            <li><a href="#" class=""><span class="fa fa-linkedin"></span></a></li>
-            <li><a href="#" class=""><span class="fa fa-google-plus"></span></a></li>
-            <li><a href="#" class=""><span class="fa fa-dribbble"></span></a></li>
+            <li class="ani"><a href="#"><span class="fa fa-facebook"></span></a></li>
+            <li class="ani"><a href="#"><span class="fa fa-linkedin"></span></a></li>
+            <li class="ani"><a href="#"><span class="fa fa-google-plus"></span></a></li>
+            <li class="ani"><a href="#"><span class="fa fa-dribbble"></span></a></li>
         </ul>
     </div>
     <div class="row foo">
@@ -472,9 +475,9 @@ var btnContainer = document.getElementById("myBtnContainer");
 var btns = btnContainer.getElementsByClassName("btn");
 for (var i = 0; i < btns.length; i++) {
   btns[i].addEventListener("click", function() {
-    var current = document.getElementsByClassName("active");
-    current[0].className = current[0].className.replace(" active", "");
-    this.className += " active";
+    var current = document.getElementsByClassName("activetab");
+    current[0].className = current[0].className.replace(" activetab", "");
+    this.className += " activetab";
   });
 }
 </script>
@@ -491,7 +494,8 @@ for (var i = 0; i < btns.length; i++) {
         var dotpos = x.lastIndexOf(".");
         if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length || x=="") 
         {
-            document.getElementById("email").style.border="1px solid #ec6a68";
+                document.getElementById("email").style.border="1px solid #ec6a68";
+           
         }
         if(c=isNaN || c=="")
             {
@@ -514,6 +518,16 @@ for (var i = 0; i < btns.length; i++) {
             }
         
     }
+</script>
+<script>
+$(".ani").hover(
+  function () {
+    $(this).addClass("animated flip");
+  },
+  function () {
+    $(this).removeClass("animated flip");
+  }
+);
 </script>
 
 </body>

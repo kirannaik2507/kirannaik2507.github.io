@@ -28,7 +28,27 @@
         margin: 5px 0;
         
     }
+    nav a
+    {
+        text-align: center;
+    }
  
+}
+p
+{
+    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+}
+h1
+{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+}
+.hb img
+{
+    height: 25px;
 }
 /**work img hover ***/
 #works .container-work 
@@ -89,9 +109,10 @@
 }
 #works .container-fluid p
 {
+    color: #ddd;
     font-size: 16px;
 }
-#works .container-fluid .btn
+#works .container-fluid .btn, #works .container-fluid .btn:focus 
 {
     border: 1px solid #fff;
     background: none;
@@ -102,6 +123,7 @@
     border: 1px solid #fff;
     background: none;
     margin-top: 40px;
+    width: 185px;
     color: #ec6a68;
 }
 .banner-text .btn:hover
@@ -138,8 +160,13 @@
 }
 p, #skills h4
 {
-    color: dimgrey;
+    opacity: 0.8;
     font-size: 18px;
+}
+#skills h4
+{
+    color: dimgrey;
+    font-size: 20px;
 }
 .banner-text p 
 {
@@ -151,7 +178,8 @@ p, #skills h4
 }
 .foo p
 {
-   margin-top: 10px;
+    opacity: 0.5;
+    margin-top: 10px;
 }
 
 .foo
@@ -196,7 +224,7 @@ p, #skills h4
     color: #ec6a68;
 }
 .navbar-brand>img {
-    margin-top: -34px;
+    margin-top: -15px;
     position: absolute;
 }
 #banner
@@ -218,7 +246,7 @@ p, #skills h4
 }
 section
 {
-    padding-bottom: 45px;
+    padding-bottom: 50px;
 }
 #about_me ,#services
 {
@@ -229,10 +257,14 @@ section
 {
     padding: 20px 0;
 }
-.abt-text input[type=submit]
+.abt-text a:hover
+{
+    opacity: 0.8;
+    color: #fff;
+}
+.abt-text a
 {
     border: 0;
-    border-radius: 0;
     background: #ec6a68;
    
 }
@@ -252,26 +284,24 @@ section
 
 
 /*****tabs***/
-#works .active
+#works .activetab
 {
-    border-radius: 0;
     color: #ec6a68;
-    border: 2px solid #ec6a68;
-    background:#fff;
+    border: 1px solid #fff;
+    background:none;
 }
 #works .btn
 {
-    border-radius: 0;
-    color: #fff;
+    color: #ec6a68;
     border: 1px solid none;
     background: none;
 }
 #works .btn:focus
 {
-    border-radius: 0;
+
     color: #ec6a68;
-    border: 2px solid #ec6a68;
-    background:#fff;
+    border: 1px solid none;
+    background:none;
 }
 #works img
 {
@@ -308,6 +338,7 @@ section
 #team .tm-image 
 {
     opacity: 1;
+    margin-top: 15px;
     transition: .5s ease;
     backface-visibility: hidden;
 }
@@ -350,11 +381,16 @@ input[type=text], input[type=number]
     padding-top: 15px;
     padding-bottom: 120px;
 }
+.send:hover, .send:focus
+{
+    opacity: 0.8;
+    color: #fff;
+}
 .send
 {
     background: #ec6a68;
     color: white;
-    width: 40%;
+    width: 185px;;
     border-radius: 0;
     margin-top: 25px;
 }
@@ -390,7 +426,7 @@ footer .list-inline a
     width: 42px;
     height: 42px;
     color: white;
-    padding-top: 9px;
+    padding-top: 11px;
     font-size: 21px;
     text-align: center;
     line-height: 37px;
@@ -402,7 +438,7 @@ footer .list-inline a
     display: block;
     width: 42px;
     height: 42px;
-    color: white;
+    color: #ec6a68;
     padding-top: 9px;
     font-size: 21px;
     text-align: center;
