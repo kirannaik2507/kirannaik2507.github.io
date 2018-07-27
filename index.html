@@ -5,6 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script src="jq/jquery-1.11.1.min.js"></script>
 <script src="boos/bootstrap.min.js"></script>  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-localScroll/2.0.0/jquery.localScroll.min.js"></script>
 <link rel="stylesheet" href="boos/bootstrap.min.css">
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
@@ -78,13 +80,15 @@
                 <h3>Email</h3>
                 <p>kirannaik2507@gmail.com</p>
             </div>
-            <div class="row abt-text">
-                <div class="col-md-12 text-center ">
-                    <p>I am a Web Designer / Developer. I have a passion for web design and love to create Websites for web and mobile devices.
-                    </p>
+        </div>
+        <div class="row abt-text">
+            <div class="col-md-1 col-xs-1"></div>
+            <div class="col-md-10 col-xs-10 text-center ">
+                <p>I am a Web Designer / Developer. I have a passion for web design and love to create Websites for web and mobile devices.
+                </p>
                     <a class="btn btn-lg" value="">Download Resume</a>
-                </div>
             </div>
+            <div class="col-md-1 col-xs-1"></div>
         </div>
     </div>
     <!-- team -->
@@ -528,6 +532,9 @@ $(".ani").hover(
     $(this).removeClass("animated flip");
   }
 );
+</script>
+<script>
+    $(".nav").localScroll();
 </script>
 
 </body>
