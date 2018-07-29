@@ -16,23 +16,10 @@
         width: 175px;
         text-align: center;
     }
-    
+  
 }
 @media screen and (min-width: 120px) and (max-width: 991px)
 {
-    #team .list-inline a 
-    {
-        border: 1px solid #EC6A68;
-        border-radius: 50%;
-        display: block;
-        width: 36px;
-        height: 36px;
-        color: #EC6A68;
-        padding-top: 9px;
-        font-size: 24px;
-        text-align: center;
-        line-height: 89px;
-    }
     #abt .col-md-4
     {
         text-align: center;
@@ -46,16 +33,15 @@
     {
         text-align: center;
     }
-    .list-inline>li 
+    #team .list-inline>li 
     {
         
         padding-right: 0;
        
     }
-    .col-md-12, .col-md-6
+      .banner-text h2 
     {
-        margin: 0;
-        padding: 0;
+        margin-top: 215px;
     }
     
  
@@ -65,11 +51,13 @@ p
     font-family: 'Titillium Web', sans-serif;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 18px;
+ 
 }
 h1
 {
     font-family: 'Titillium Web', sans-serif;
     font-weight: 600;
+    letter-spacing: 2px;
     font-size: 35px;
 }
 .hb img
@@ -205,7 +193,7 @@ p, #skills h4
 .foo p
 {
     opacity: 0.5;
-    margin-top: 10px;
+   margin-top: 10px;
 }
 
 .foo
@@ -239,6 +227,7 @@ p, #skills h4
 }
 .navbar-inverse 
 {
+        box-shadow: 0 5px 10px rgba(0,0,0,0.12), 0 7px 35px rgba(0,0,0,0.24);
         background-color:#ffff;
         border: 0; 
         padding: 15px 0;
