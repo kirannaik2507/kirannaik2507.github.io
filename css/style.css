@@ -235,7 +235,7 @@ p, #skills h4
 .navbar-inverse .navbar-nav>li>a {
     color: #292c47;
 }
-.navbar-inverse .navbar-nav>li>a:hover {
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
     color: #ec6a68;
 }
 .navbar-brand>img {
