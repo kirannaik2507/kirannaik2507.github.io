@@ -1,0 +1,1147 @@
+@media only screen and (min-width: 50px) and (max-width: 1169px)
+{
+    .topnav
+    {
+        padding: 10px 0;
+        
+    }
+    .topnav a
+    {
+        color: #000;
+    }
+    .topnav a:not(:first-child)
+    {
+        display: none;
+        
+    }
+    .topnav a:hover 
+    {
+
+        color: #ffa41f;
+    }
+    .topnav img
+    {
+        height: 35px;
+        margin-left: 15px;
+    }
+    .topnav a.icon 
+    {
+        float: right;
+        font-size: 30px;
+        color: #ffa41f;
+        margin: 0 25px;
+        display: block;
+        
+    
+    }
+    .topnav.responsive 
+    {
+        position: relative;
+        -webkit-transition: width 2s; /* Safari */
+        transition: width 2s;
+    }
+    .topnav.responsive .icon 
+    {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a:not(:first-child) 
+    {
+        float: none;
+        text-transform: uppercase;
+        padding: 10px 0;
+        display: block;
+
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 50px) and (max-width: 767px)/****mobile***/
+{
+
+    .container
+    {
+        width: 320px;
+        margin: auto;
+    }
+    h1
+    {
+        padding: 10px 0;
+        font-size: 30px;
+        letter-spacing: 1px;
+         text-align: center;
+        font-weight: 600;
+        color: chocolate;
+        text-transform: capitalize;
+    }
+    nav
+    {
+        z-index: 999;
+        position: fixed;
+        background: #fff;
+        width: 100%;
+        border-bottom: 1px solid #ffa41f;
+        margin-top: 0px;
+    }
+    nav input[type=text]
+    {
+        display: none;
+    }
+    nav .fa-search
+    {
+         display: none;
+    }
+    button
+    {
+        height: 40px;
+        width: 200px;
+        border: 0; 
+        background: #ffa41f;
+        border-radius:40px;
+        color: white;
+        font-size: 15px;
+        cursor: pointer;
+        text-transform: capitalize;
+    }
+    button:hover
+    {
+        border: 2px solid #ffa41f;
+        border-radius: 40px;
+        background: none;
+        color: #ffa41f;
+        transition: .5s ease-in;
+        -webkit-transition: .5s ease-in;
+    }
+    #banner
+    {
+        height: 250px;
+    }
+    #banner img
+    {
+        width: 100%;
+        height: 250px;
+        position: absolute;
+
+    }
+    #banner .text h1
+    {
+        padding-top: 85px;
+        font-size: 30px;
+        text-transform: capitalize;
+        color: white;
+    }
+    #banner .text p
+    {
+        display: none;
+    }
+     #banner .text h3
+    {
+        color: #fff;
+        font-size: 20px;
+        text-align: center;
+    }
+     #banner .text span
+    {
+        background: #ffa41f;
+        color: #000;
+        padding: 0 2px;
+    }
+    #banner .text button
+    {
+        display: none;
+    }
+
+    /*popular menu*/
+    #popular-menu .img-hover
+    {
+        width: 250px;
+        height: 190px;
+        margin: 20px auto;
+        float: none;
+    }
+    #popular-menu .img-hover img
+    {
+        width: 100%;
+        height: 190px;
+    }
+    .img-hover 
+    {
+        position: relative;
+        width: 50%;
+    }
+    .popular-txt
+    {
+        
+        color: white;
+        position: absolute;
+        bottom: 100%;
+        left: 0;
+        opacity: 0.9;
+        text-align: center;
+        right: 0;
+        background-color: #141414;
+        overflow: hidden;
+        width: 100%;
+        height: 0;
+        transition: .5s ease;
+    }
+    .popular-txt h2
+    {
+        margin-top: 20px;
+    }
+    .popular-txt h3
+    {
+        margin: 15px;
+    }
+    .popular-txt button
+    {
+        width: 175px;
+        height: 40px;
+        background: none;
+        
+        
+    }
+    .popular-txt button:hover
+    {
+        border: 1px solid white;
+        transition: .3s ease-in;
+        -webkit-transition: .3s ease-in;
+    }
+    .img-hover:hover .popular-txt {
+      bottom: 0;
+      height: 100%;
+    }
+
+    
+    /*gallery*/
+    #gallery
+    {
+
+        background: #141414;
+    }
+    #gallery h1, #booking h1
+    {
+        color: #fff;
+    }
+    .container-gal
+    {
+        width: 320px;
+        margin: auto;
+    }
+    .sm-gal
+    {
+        display: none;
+        
+    }
+    #gallery p
+    {
+        text-align: center;
+    }
+    #gallery a
+    {
+        color: #fff;
+        text-decoration: none;
+    }
+    #gallery a:hover
+    {
+        text-decoration: underline;
+        color: #ffa41f;
+        cursor: pointer;
+    }
+    #gallery .gal-img
+    {
+        float: none;
+        width: 300px;
+        height: 200px;
+        margin: 10px;
+    }
+    #gallery .gal-img img
+    {
+        width: 100%;
+        height: 200px;
+    }
+    /*booking*/
+    #booking 
+    {
+        clear: both;
+        border: 0px solid red;
+        width: 100%;
+        background: url(../Images/banner/eat-2834549_1920.jpg) no-repeat;
+        background-attachment: fixed;
+        display: table;
+        background-size: cover;
+    }
+    #booking input[type=number], #booking input[type=text], #booking input[type=time], footer input[type=text]
+    {
+        padding: 12px 10px;
+        margin: 5px;
+        border-radius: 1px;
+        width: 270px;
+        height: 20px;
+        border: 0;
+        outline: none;
+    }
+    #booking form
+    {
+        float: none;
+        text-align: center;
+        width: 300px;
+        margin: auto;
+    }
+    #booking button
+    {
+        margin-top: 20px;
+        width: 295px;
+        margin-left: 2px;
+    }
+    /*footer*/
+    footer
+    {
+        text-align: center;
+        color: white;
+        background: #141414;
+    }
+    footer a
+    {
+        color: white;
+    }
+    footer h2
+    {
+        margin: 25px 0;
+    }
+    footer ul
+    {
+        padding: 25px 0px;
+        float: none;
+        margin: auto;
+        width: 300px;
+        text-align: center;
+       
+    }
+    footer ul li
+    {
+        list-style: none;
+    }
+    .socl li:not(:first-child)
+    {
+         margin-left: 25px;
+    }
+    .socl li
+    {
+        float: left;
+        width: 25px;
+        margin-right: 20px;
+        height: 25px;;
+    }
+     .socl span:hover
+    {
+        background: #ffa41f;
+        border: 1px solid #ffa41f;
+        transition: .3s ease-in;
+        -webkit-transition: .3s ease-in;
+    }
+    .socl span
+    {
+        border: 1px solid;
+        padding: 5px;
+        font-size: 20px;
+        line-height: 25px;
+        text-align: center;
+        height: 25px;
+        border-radius: 2px;
+        width: 25px;
+    }
+    footer input[type=text]
+    {
+        margin: 0;
+        width: 250px;
+    }
+    footer button
+    {
+        height: 40px;
+        width: 270px;
+    }
+    footer .add
+    {
+        clear: both;
+    }
+    footer .add span
+    {
+        
+        font-size: 28px;
+        margin-right: 10px;
+    }
+    .foot-txt
+    {
+        color: white;
+        background: #000;
+        text-align: center;
+        padding: 20px 0;
+    }
+    section
+    {
+        padding-top: 10px;
+        padding-bottom: 35px;
+    }
+
+}
+@media only screen and (min-width: 768px) and (max-width: 1169px)/****tablet***/
+{
+
+    .container
+    {
+        width: 768px;
+        margin: auto;
+    }
+    h1
+    {
+        text-align: center;
+        padding: 35px 0;
+        text-transform: uppercase;
+        font-size: 30px;
+    }
+    nav
+    {
+        z-index: 999;
+        position: fixed;
+        background: #fff;
+        width: 100%;
+        margin-top: 0px;
+        border-bottom: 1px solid #ffa41f;
+    }
+    nav input[type=text]
+    {
+        display: none;
+    }
+    nav .fa-search
+    {
+         display: none;
+    }
+    button
+    {
+        height: 40px;
+        width: 200px;
+        border: 0; 
+        background: #ffa41f;
+        border-radius:40px;
+        color: white;
+        font-size: 18px;
+        cursor: pointer;
+        text-transform: capitalize;
+    }
+    button:hover
+    {
+        border: 2px solid #ffa41f;
+        border-radius: 40px;
+        background: none;
+        color: #ffa41f;
+        transition: .5s ease-in;
+        -webkit-transition: .5s ease-in;
+    }
+    #banner
+    {
+        height: 400px;
+    }
+    #banner img
+    {
+        width: 100%;
+        height: 400px;
+        position: absolute;
+
+    }
+    #banner .text
+    {
+        text-align: center;
+    }
+    #banner .text h1
+    {
+        padding-top: 150px;
+        font-size: 30px;
+        text-transform: capitalize;
+        color: white;
+        letter-spacing: 1px;
+    }
+    #banner .text p
+    {
+        color: #fff;
+         font-size: 20px;
+        padding-top:25px;
+        letter-spacing: 1px;
+    }
+     #banner .text h3
+    {
+        color: #fff;
+        font-size: 20px;
+        letter-spacing: 2px;
+
+    }
+     #banner .text span
+    {
+        background: #ffa41f;
+        color: #000;
+        padding: 0 7px;
+    }
+    #banner .text button
+    {
+
+        display: none;
+    }
+
+    /*popular menu*/
+    #popular-menu
+    {
+        width: 100%;
+        height: 700px;
+    }
+    #popular-menu .img-hover
+    {
+        width: 295px;
+        height: 200px;
+        margin: 10px 44px;
+        float: left;
+    }
+    #popular-menu .img-hover img
+    {
+        width: 100%;
+        height: 190px;
+    }
+    .img-hover 
+    {
+        position: relative;
+        width: 50%;
+    }
+    .popular-txt
+    {
+        
+        color: white;
+        position: absolute;
+        bottom: 100%;
+        left: 0;
+        opacity: 0.9;
+        text-align: center;
+        right: 0;
+        background-color: #141414;
+        overflow: hidden;
+        width: 100%;
+        height: 0;
+        transition: .5s ease;
+    }
+    .popular-txt h2
+    {
+        margin-top: 20px;
+    }
+    .popular-txt h3
+    {
+        margin: 25px;
+    }
+    .popular-txt button
+    {
+        width: 175px;
+        height: 40px;
+        background: none;
+        
+        
+    }
+    .popular-txt button:hover
+    {
+        border: 1px solid white;
+        transition: .3s ease-in;
+        -webkit-transition: .3s ease-in;
+    }
+    .img-hover:hover .popular-txt {
+      bottom: 0;
+      height: 100%;
+    }
+
+    
+    /*gallery*/
+    #gallery
+    {
+
+        background: #141414;
+    }
+    #gallery h1, #booking h1
+    {
+        color: #fff;
+    }
+    .container-gal
+    {
+        width: 500px;
+        margin: auto;
+    }
+    .sm-gal
+    {
+        display: none;
+        
+    }
+    #gallery p
+    {
+        text-align: center;
+    }
+    #gallery a
+    {
+        color: #fff;
+        text-decoration: none;
+    }
+    #gallery a:hover
+    {
+        text-decoration: underline;
+        color: #ffa41f;
+        cursor: pointer;
+    }
+    #gallery .gal-img
+    {
+        float: none;
+        width: 500px;
+        height: 250px;
+        margin: 10px auto;
+    }
+    #gallery .gal-img img
+    {
+        width: 100%;
+        height: 250px;
+    }
+    /*booking*/
+    #booking 
+    {
+        clear: both;
+        border: 0px solid red;
+        width: 100%;
+        background: url(../Images/banner/eat-2834549_1920.jpg) no-repeat;
+        background-attachment: fixed;
+        display: table;
+        background-size: cover;
+    }
+    #booking input[type=number], #booking input[type=text], #booking input[type=time]
+    {
+        padding: 12px 10px;
+        margin: 5px;
+        border-radius: 1px;
+        width: 270px;
+        height: 20px;
+        border: 0;
+        float: left;
+        outline: none;
+    }
+    #booking form
+    {
+        text-align: center;
+        width: 600px;
+        margin: auto;
+    }
+    #booking button
+    {
+        margin-top: 20px;
+        width: 295px;
+        margin-left: 2px;
+    }
+    /*footer*/
+    footer
+    {
+        text-align: center;
+        color: white;
+        background: #141414;
+    }
+    footer a
+    {
+        color: white;
+    }
+    footer h2
+    {
+        margin: 25px 0;
+    }
+    footer ul
+    {
+        padding: 25px 0px;
+        float: none;
+        margin: auto;
+        width: 300px;
+        text-align: center;
+       
+    }
+    footer ul li
+    {
+        list-style: none;
+    }
+    .socl li:not(:first-child)
+    {
+         margin-left: 25px;
+    }
+    .socl li
+    {
+        float: left;
+        width: 25px;
+        margin-right: 20px;
+        height: 25px;;
+    }
+     .socl span:hover
+    {
+        background: #ffa41f;
+        border: 1px solid #ffa41f;
+        transition: .3s ease-in;
+        -webkit-transition: .3s ease-in;
+    }
+    .socl span
+    {
+        border: 1px solid;
+        padding: 5px;
+        font-size: 20px;
+        line-height: 25px;
+        text-align: center;
+        height: 25px;
+        border-radius: 2px;
+        width: 25px;
+    }
+    footer input[type=text]
+    {
+        padding: 12px 10px;
+        margin: 5px;
+        border-radius: 1px;
+        height: 20px;
+        border: 0;
+        outline: none;
+        margin: 0;
+        width: 250px;
+    }
+    footer button
+    {
+        height: 40px;
+        width: 270px;
+    }
+    footer .add
+    {
+        clear: both;
+    }
+    footer .add span
+    {
+        
+        font-size: 28px;
+        margin-right: 10px;
+    }
+    .foot-txt
+    {
+        color: white;
+        background: #000;
+        text-align: center;
+        padding: 20px 0;
+    }
+    section
+    {
+        padding-top: 25px;
+        padding-bottom: 100px;
+    }
+
+}
+
+@media only screen and (min-width: 1170px) and (max-width: 1600px)/****desktop***/
+{
+    .lg-btn
+    {
+        display: none;
+    }
+    nav .topnav a:first-child
+    {
+        margin-right: 300px;
+        margin-top: -5px;
+        margin-left: -20px;
+    }
+    nav input[type=text]
+    {
+        border-radius: 40px;
+        padding: 6px 18px;
+        margin-top: -6px;
+        border: 1px solid chocolate;
+    }
+    nav .fa-search
+    {
+        margin-left: -28px;
+    }
+    .topnav 
+    {
+        width: 1170px;
+        margin: auto;
+
+    }
+
+    h1
+    {
+        text-align: center;
+        color: chocolate;
+        padding: 35px 0;
+        text-transform: capitalize;
+        font-size: 35px;
+        letter-spacing: 1px;
+    }
+
+    .container
+    {
+        width: 1170px;
+        margin: auto;
+    }
+
+    nav 
+    {
+        position: fixed;
+        background: white;
+        border-bottom: 2px solid #ffa41f;
+        width: 100%;
+        height: 87px;
+        color: black;
+        z-index: 9999;
+    }
+    .topnav a 
+    {
+        float: left;
+        display: block;
+        margin-top: 18px;
+        text-align: center;
+        color: chocolate;
+        padding: 12px 20px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 17px;
+    }
+    #banner .text h1
+    {
+        padding-top: 190px;
+        font-size: 50px;
+        text-transform: capitalize;
+        color: white;
+        letter-spacing: 4px;
+    }
+    button
+    {
+        height: 45px;
+        width: 240px;
+        border: 0; 
+        background: #ffa41f;
+        border-radius:40px;
+        color: white;
+        font-size: 18px;
+        cursor: pointer;
+        text-transform: capitalize;
+    }
+    button:hover
+    {
+        border: 2px solid #ffa41f;
+        border-radius: 40px;
+        background: none;
+        color: #ffa41f;
+        transition: .5s ease-in;
+        -webkit-transition: .5s ease-in;
+    }
+    #banner button
+    {
+        margin-top: 75px;
+        border: 1px solid white;
+        background: none;
+        
+    }
+    #banner .text p
+    {
+        color: #fff;
+         font-size: 24px;
+        padding-top:25px;
+        letter-spacing: 1px;
+    }
+     #banner .text h3
+    {
+        color: #fff;
+        font-size: 22px;
+        letter-spacing: 2px;
+        padding: 5px 0;
+    }
+     #banner .text span
+    {
+        background: #ffa41f;
+        color: #000;
+        padding: 0 7px;
+    }
+    #banner .text button:hover
+    {
+        transition: .5s ease-in;
+         color: #fff;
+        -webkit-transition: .5s ease-in;
+        background: #ffa41f;
+        border: 1px solid #ffa41f;
+    }
+    #banner
+    {
+        height: 750px;
+    }
+    #banner img
+    {
+        width: 100%;
+        height: 750px;
+        position: absolute;
+
+    }
+    #banner .text
+    {
+        text-align: center;
+        position: relative;
+        margin: auto;
+        width: 960px;
+    }
+
+    /*popular menu*/
+    #popular-menu
+    {
+        height: 665px;
+    }
+    #popular-menu .img-hover
+    {
+        width: 350px;
+        height: 250px;
+        margin:20px;
+        float: left;
+    }
+    #popular-menu .img-hover img
+    {
+        width: 100%;
+        height: 250px;
+    }
+    .img-hover 
+    {
+        position: relative;
+        width: 50%;
+    }
+    .popular-txt
+    {
+        
+        color: white;
+        position: absolute;
+        bottom: 100%;
+        left: 0;
+        opacity: 0.9;
+        text-align: center;
+        right: 0;
+        background-color: #141414;
+        overflow: hidden;
+        width: 100%;
+        height: 0;
+        transition: .5s ease;
+    }
+    .popular-txt h2
+    {
+        margin-top: 60px;
+    }
+    .popular-txt h3
+    {
+        margin: 25px;
+    }
+    .popular-txt button
+    {
+        width: 175px;
+        height: 40px;
+        background: none;
+        
+        
+    }
+    .popular-txt button:hover
+    {
+        border: 1px solid white;
+        transition: .3s ease-in;
+        -webkit-transition: .3s ease-in;
+    }
+    .img-hover:hover .popular-txt {
+      bottom: 0;
+      height: 100%;
+    }
+
+    
+    /*gallery*/
+    #gallery
+    {
+        height: 710px;
+        background: #141414;
+    }
+    #gallery h1, #booking h1
+    {
+        color: #fff;
+    }
+    .container-gal
+    {
+        width: 1340px;
+        margin: auto;
+    }
+    #gallery .gal-img
+    {
+        float: left;
+        margin: 1px;
+        width: 266px;
+        height: 200px;
+    }
+    #gallery .gal-img img
+    {
+        width: 100%;
+        height: 200px;
+    }
+    /*booking*/
+    #booking 
+    {
+        clear: both;
+        border: 0px solid red;
+        width: 100%;
+        background: url(../Images/banner/eat-2834549_1920.jpg) no-repeat;
+        background-attachment: fixed;
+        display: table;
+        background-size: cover;
+    }
+    #booking input[type=number], #booking input[type=text], #booking input[type=time], footer input[type=text]
+    {
+        padding: 14px 10px;
+        margin: 8px 10px;
+        border-radius: 1px;
+        width: 288px;
+        height: 20px;
+        border: 0;
+        outline: none;
+    }
+    #booking form
+    {
+        float: right;
+        width: 660px;
+        text-align: center;
+    }
+    #booking button
+    {
+        margin-top:25px;
+        
+    }
+    /*footer*/
+    footer
+    {
+        height: 275px;
+        color: white;
+        background: #141414;
+    }
+    footer a
+    {
+        color: white;
+    }
+    footer h2
+    {
+        margin-bottom: 25px;
+    }
+    footer ul
+    {
+        float: left;
+        margin: 50px;
+    }
+    footer ul li
+    {
+        list-style: none;
+    }
+    .socl li
+    {
+        float: left;
+        width: 25px;
+        margin-right: 25px;
+        height: 25px;;
+    }
+     .socl span:hover
+    {
+        background: #ffa41f;
+        border: 1px solid #ffa41f;
+        transition: .3s ease-in;
+        -webkit-transition: .3s ease-in;
+    }
+    .socl span
+    {
+        border: 1px solid;
+        padding: 7px;
+        font-size: 23px;
+            line-height: 27px;
+        text-align: center;
+        height: 25px;
+        border-radius: 2px;
+        width: 25px;
+    }
+    footer input[type=text]
+    {
+        margin: 0;
+    }
+    footer button
+    {
+        height: 42px;
+        font-size: 15px;
+        width: 125px;
+    }
+    footer .add span
+    {
+        font-size: 28px;
+        margin-right: 10px;
+    }
+    .foot-txt
+    {
+        color: white;
+        background: #000;
+        text-align: center;
+        padding: 20px 0;
+    }
+    section
+    {
+        padding-top: 25px;
+        padding-bottom: 150px;
+    }
+    .topnav a:hover 
+    {
+
+        color: #141414;
+    }
+
+}
+section
+{
+    width: 100%;
+    
+}
+p
+{
+    color: gray;
+}
+
+#banner img
+{
+    width: 100%;
+ 
+}
+
+#banner .text
+{
+    position: relative;
+    margin: auto;
+}
+
+
+*
+{
+    margin: 0;
+    font-family: 'Titillium Web', sans-serif;
+}
+.topnav 
+{
+
+    overflow: hidden;
+    
+}
+.topnav a
+{
+    text-decoration: none;
+
+}
+
+
+.active 
+{
+    border: 2px solid #ffa41f;
+    color: chocolate;
+}
+
+.topnav .icon 
+{
+    display: none;
+}
+
+   
