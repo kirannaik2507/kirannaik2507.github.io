@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <script src="boos/bootstrap.min.js"></script>  
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js" type="text/javascript"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-localScroll/2.0.0/jquery.localScroll.min.js"></script>
@@ -75,7 +75,7 @@
             </div>
         </div>
         
-        <div class="row-popular">
+        <div class="row-popular sm-menu">
             <div class="img-hover">
                 <img src="images/popular_menu/menu4.jpg">
                 <div class="popular-txt">
@@ -101,6 +101,7 @@
                 </div>
             </div>
         </div>
+        <p><a class="lg-btn" id="menu-show">Show More</a></p>
     </div>
 </section>
 <!--gallery-->
@@ -215,6 +216,14 @@
         $("#img-show").click(function(){
             $(this).hide();
             $(".sm-gal").show(300);
+        });
+    });
+</script>
+<script>
+    $(document).ready(function(){
+        $("#menu-show").click(function(){
+            $(this).hide();
+            $(".sm-menu").show(300);
         });
     });
 </script>
