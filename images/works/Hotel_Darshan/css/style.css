@@ -267,13 +267,10 @@
     /*booking*/
     #booking 
     {
-        clear: both;
-        border: 0px solid red;
         width: 100%;
-        background: url(../Images/banner/fruit-189246_1920.jpg) no-repeat;
+        background: url(../Images/banner/eat-2834549_1920.jpg) no-repeat;
         background-attachment: fixed;
         display: table;
-        background-size: cover;
     }
     #booking input[type=number], #booking input[type=text], #booking input[type=time], footer input[type=text]
     {
