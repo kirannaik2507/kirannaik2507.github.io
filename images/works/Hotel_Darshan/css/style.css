@@ -267,10 +267,11 @@
     /*booking*/
     #booking 
     {
-        width: 100%;
-        background: url(../Images/banner/eat-2834549_1920.jpg) no-repeat;
-        background-attachment: fixed;
-        display: table;
+        background:url(../images/banner/eat-2834549_1920.jpg)no-repeat center center fixed;
+        display:table;
+        position:relative;
+        width:100%;
+        background-size:cover;
     }
     #booking input[type=number], #booking input[type=text], #booking input[type=time], footer input[type=text]
     {
@@ -288,12 +289,13 @@
         text-align: center;
         width: 300px;
         margin: auto;
+        background: chocolate;
+        padding: 20px 0;
     }
     #booking button
     {
         margin-top: 20px;
         width: 295px;
-        margin-left: 2px;
     }
     /*footer*/
     footer
@@ -610,13 +612,11 @@
     /*booking*/
     #booking 
     {
-        clear: both;
-        border: 0px solid red;
-        width: 100%;
-        background: url(../Images/banner/eat-2834549_1920.jpg) no-repeat;
-        background-attachment: fixed;
-        display: table;
-        background-size: cover;
+        background:url(../images/banner/eat-2834549_1920.jpg)no-repeat center center fixed;
+        display:table;
+        position:relative;
+        width:100%;
+        background-size:cover;
     }
     #booking input[type=number], #booking input[type=text], #booking input[type=time]
     {
@@ -986,13 +986,11 @@
     /*booking*/
     #booking 
     {
-        clear: both;
-        border: 0px solid red;
-        width: 100%;
-        background: url(../Images/banner/eat-2834549_1920.jpg) no-repeat;
-        background-attachment: fixed;
-        display: table;
-        background-size: cover;
+        background:url(../images/banner/eat-2834549_1920.jpg)no-repeat center center fixed;
+        display:table;
+        position:relative;
+        width:100%;
+        background-size:cover;
     }
     #booking input[type=number], #booking input[type=text], #booking input[type=time], footer input[type=text]
     {
