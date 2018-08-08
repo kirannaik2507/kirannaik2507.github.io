@@ -272,7 +272,7 @@ section
 {
     padding: 20px 0;
 }
-.abt-text a:hover
+.abt-text a:hover, .abt-text a:focus
 {
     opacity: 0.8;
     color: #fff;
