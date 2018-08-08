@@ -741,7 +741,15 @@ h1
 
     color: gray;
 }
-
+footer button:hover
+{
+    color: black;
+}
+button:hover
+{
+    background: none;
+    border: 2px solid #fb2e59;
+}
 .active 
 {
     background-color:  #fb2e59;
