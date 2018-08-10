@@ -1,0 +1,161 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="boos/bootstrap.min.js"></script>  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-localScroll/2.0.0/jquery.localScroll.min.js"></script>
+<link rel="stylesheet" href="boos/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/animate.css">
+<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+<script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
+<style>
+
+</style>
+
+<title>Hotel Darshan</title>
+</head>
+<body>
+<nav>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" target="_blank"><img src="images/logo3.png" height="70px"></a>
+        <a href="menus.html" target="_blank" class="btn">Menus</a>
+        <a href="about.html"  target="_blank"class="btn">About</a>
+        <a href="service.html" target="_blank" class="btn">Services</a>
+        <a href="events.html" class="btn active">Events</a>
+        <a href="contact.html" target="_blank" class="btn">Contact</a>  
+        <a><input type="text" placeholder="Search">
+            <span class="fa fa-search"></span>
+        </a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+        </a>
+    </div>
+</nav>
+<div id="event-banner">
+    <div class="event-text">
+        <h1>OUR WODERFUL <span>EVENTS</span></h1>
+    </div>
+</div>
+    
+<section id="event-1">
+    <div class="container">
+        <h1>Mon to Thur Special</h1>
+        <img src="images/events/food-on-fire-4_20180306_9857.jpg">
+        <div class="event-1-info">
+            <h3>Join Us Any Night of Monday to Thursday... Dinner Specials</h3>
+            <p>From Monday to Thursday, our dinner specials touch on all the tastes you’ve been craving. Flaky all you can eat fish, tender prime rib, succulent chicken, and much more, enjoy something new every night of the week. And for those family members whose taste buds aren’t instantly grabbed by our specials, we have an extensive menu filled with fine food inspired by an executive chef.</p>
+        </div>
+    </div>
+</section>
+<section id="event-2">
+    <div class="container">
+        <h1>Weekend Special</h1>
+        <div class="event-2-info">
+            <h3>Join Us Any Weekend... Biryani Spacials</h3>
+            <p>From Friday to Sunday, our specials touch on all Biryani types. You can get 20% off on Weekends on veg and nonveg Biryani. Tasty nonveg kabab are availabe in cheap prices on Weekends And for those family members whose taste buds aren’t instantly grabbed by our specials, we have an extensive menu filled with fine food inspired by an executive chef.</p>
+        </div>
+        <img src="images/events/prawns-biryani-recipe.jpg">
+    </div>
+</section>
+<section id="event-3">
+    <div class="container">
+        <div class="subcontainer">
+            <h1>Weekly Specials</h1>
+            <div class="part1">
+                <h3>Tuesday, Wednesday, Thursday</h3>
+                <p>Chicken, Ribs & Shrimp Combo</p>
+                <h3>Saturday & Sunday</h3>
+                 <p class="mz">Veg Nonveg Specials</p>
+            </div>
+            <div class="part2">
+
+                <h3>Friday.</h3>
+                <p >All-you-can-Eat Fish Fry</p>
+                <h3>Day-to-Day</h3>
+                <p class="mz">Various German Specials</p>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="container">
+        
+        <ul class="socl"><h2>Follow us</h2>
+
+            <li class="ani"><a href="#"><span class="fa fa-instagram"></span></a></li>
+            <li class="ani"><a href="#"><span class="fa fa-youtube"></span></a></li>
+            <li class="ani"><a href="#"><span class="fa fa-twitter"></span></a></li>
+            <li class="ani"><a href="#"><span class="fa fa-facebook"></span></a></li>
+        </ul>
+        
+        <ul class="add"><h2>Contact</h2>
+            <li><span class="fa fa-phone"></span>+91 8087 2846 05</li>
+            <br>
+            <li><span class="fa fa-envelope"></span>darshanhotel@gmail.com</li>	
+        </ul>
+
+        
+        <ul><h2>For Best Deals</h2>
+            <form>
+                <li><input type="text" placeholder="Enter your email id"></li>
+                <br><li><button >Subscribe</button></li>
+            </form>
+
+        </ul>
+
+    </div>
+    
+    
+</footer>
+    <p class="foot-txt">Copyright © 2018 Hotel Darshan Deluxe. All Rights Reserved</p>
+<script>
+    $(document).ready(function(){
+        $("#img-show").click(function(){
+            $(this).hide();
+            $(".sm-gal").show(300);
+        });
+    });
+</script>
+<script>
+    $(document).ready(function(){
+        $("#menu-show").click(function(){
+            $(this).hide();
+            $(".sm-menu").show(300);
+        });
+    });
+</script>
+<script>
+function myFunction() 
+{
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+<!--for scrolling thent changes navbar menus-->
+<script>
+function onScroll(event){
+    var scrollPos = $(document).scrollTop();
+    $('#myTopnav a').each(function () {
+        var currLink = $(this);
+        var refElement = $(currLink.attr("href"));
+        if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+            $('#myTopnav a').removeClass("active");
+            currLink.addClass("active");
+        }
+        else{
+            currLink.removeClass("active");
+        }
+    });
+}
+</script>
+
+</body>
+</html>

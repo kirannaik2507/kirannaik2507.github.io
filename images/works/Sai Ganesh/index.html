@@ -11,8 +11,7 @@
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="css/animate.css">
-<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro|Titillium+Web" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
 
 <style>
 
@@ -31,13 +30,13 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#myCarousel"><img src="images/mayakkatrderslogo.png" height="65px"></a>
+      <a class="navbar-brand" href="#myCarousel"><img src="images/sai.png" height="60px"></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
 
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#about">About</a></li>
-        <li><a href="#Developedsites">Work</a></li>  
+        <li><a href="#Developedsites">Works</a></li>  
         <li><a href="#Services">Services</a></li>  
         <li><a href="#Gallary">Gallery</a></li>
         <li><a href="#contact">Contact</a></li>
@@ -109,14 +108,14 @@ As per modern civil development, we provide the best parking, elevator, security
 </section>
     
 <section id="Developedsites">
-        <h1>Work</h1>
+        <h1>Works</h1>
     <div class="container">
        <div class="row">
             <div class="col-md-1"></div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-5">
                <img src="images/work1.jpg">
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 col-sm-7">
                 <h3>1. Mayakka Plaza</h3>
                 <p>
 3 shops at the basement, 
@@ -147,7 +146,7 @@ As per modern civil development, we provide the best parking, elevator, security
     <div class="container">
         <div class="row">
             <div class="col-md-1"></div>
-            <div class="col-md-1">
+            <div class="col-md-1 col-sm-12">
                 <div class="img-serv">
                     <img src="images/land-dev.png">
                 </div>
@@ -157,7 +156,7 @@ As per modern civil development, we provide the best parking, elevator, security
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis neque libero. Class aptent taciti sociosqu ad litora</p>
             </div>
             
-            <div class="col-md-1">
+            <div class="col-md-1 col-sm-12">
                 <div class="img-serv">
                     <img src="images/land-agri.png">
                 </div>
@@ -170,7 +169,7 @@ As per modern civil development, we provide the best parking, elevator, security
         </div>
         <div class="row">
             <div class="col-md-1"></div>
-            <div class="col-md-1">
+            <div class="col-md-1 col-sm-12">
                 <div class="img-serv">
                     <img src="images/flat.png">
                 </div>
@@ -180,14 +179,14 @@ As per modern civil development, we provide the best parking, elevator, security
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis neque libero. Class aptent taciti sociosqu ad litora</p>
             </div>
 
-            <div class="col-md-1">
+            <div class="col-md-1 col-sm-12">
                 <div class="img-serv">
                     <img src="images/house.png">
                 </div>
             </div>
             <div class="col-md-4">
                 <h3>House</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis neque libero. Class aptent taciti sociosqu ad litora</p>
+                <p class="pz">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis neque libero. Class aptent taciti sociosqu ad litora</p>
             </div>
             <div class="col-md-1"></div>
             
@@ -212,7 +211,7 @@ As per modern civil development, we provide the best parking, elevator, security
                 <img src="images/architecture-building-city-439416.jpg">
             </div>
         </div>
-        <div class="row">
+        <div class="row smhide">
             <div class="col-md-3">
                 <img src="images/gal2.jpg">
             </div>
@@ -226,19 +225,12 @@ As per modern civil development, we provide the best parking, elevator, security
                 <img src="images/gal5.jpg">
             </div>
         </div>
+        <p id="imgshow">Show More</p>
     </div>
 </section>
     
 <section id="contact">
     <h1>Contact</h1>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-
-            </div>
-
-        </div>
-    </div>
 </section>
 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15323.288059133349!2d74.3590417!3d16.2295874!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa0a3c824b49ad419!2sMayakka+Plaza!5e0!3m2!1sen!2sin!4v1533662044091" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 <footer>
@@ -265,7 +257,7 @@ As per modern civil development, we provide the best parking, elevator, security
     </div>
     </div>
 </footer>
-    <div class="row foo">
+<div class="row foo">
         <div class="col-sm-12 text-center">
            <p>© 2018 Mayyakka Constructions. All rights reserved</p>
         </div>
@@ -274,6 +266,14 @@ As per modern civil development, we provide the best parking, elevator, security
 
 <script>
     $(".nav").localScroll();
+</script>
+<script>
+    $(document).ready(function(){
+        $("#imgshow").click(function(){
+            $(this).hide();
+            $(".smhide").hide(300);
+        });
+    });
 </script>
 
 

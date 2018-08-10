@@ -1,0 +1,549 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="boos/bootstrap.min.js"></script>  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-localScroll/2.0.0/jquery.localScroll.min.js"></script>
+<link rel="stylesheet" href="boos/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/animate.css">
+<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+<script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
+<style>
+
+</style>
+
+<title>Hotel Darshan</title>
+</head>
+<body>
+<nav>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" target="_blank"><img src="images/logo3.png" height="70px"></a>
+        <a href="menus.html" class="btn active">Menus</a>
+        <a href="about.html" target="_blank" class="btn">About</a>
+        <a href="service.html" target="_blank" class="btn">Services</a>
+        <a href="events.html" target="_blank" class="btn">Events</a>
+        <a href="contact.html" target="_blank" class="btn">Contact</a>  
+        <a><input type="text" placeholder="Search">
+            <span class="fa fa-search"></span>
+        </a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+        </a>
+    </div>
+</nav>
+<div id="menu-banner">
+    <div class="menu-text">
+        <h1>OUR TASTY <span>MENUS</span></h1>
+    </div>
+</div>
+    
+<section id="menus-all">
+    <h1>Menus</h1>
+    <div class="container">
+        <div class="all_food_menu">
+            <div class="tab">
+                <button class="tablinks actab" onclick="openCity(event, 'London')" id="defaultOpen">Breakfast</button>
+                <button class="tablinks" onclick="openCity(event, 'Paris')">Veg</button>
+                <button class="tablinks" onclick="openCity(event, 'Tokyo')">Nonveg</button>
+                <button class="tablinks" onclick="openCity(event, 'Ind')">Chines</button>
+            </div>
+            <div id="London" class="tabcontent" style="display: block;">
+                <div class="menu-div">
+                    <img src="images/breakfast/poha.jpg">
+                    <div class="menu_in">
+                        <span>Poha</span><br>
+                        <span class="prc">30rs</span>
+                    </div>
+                    <hr>
+                    <img src="images/breakfast/sandwich.png">
+                    <div class="menu_in"><span>Sandwich</span><br>
+                        <span class="prc">30rs</span>
+                    </div>
+                    <hr>
+                    <img src="images/breakfast/puri.jpg">
+                    <div class="menu_in">
+                        <span>Puri Bhajji</span><br>
+                        <span class="prc">35rs</span>
+                    </div>
+                    <hr>
+                    <img src="images/breakfast/aloo.jpg">
+                    <div class="menu_in">
+                        <span>Aaloo Bhajji</span><br>
+                        <span class="prc">15rs</span>
+                    </div>
+                    <hr>
+                    <img src="images/breakfast/Bread-Pakora.jpg">
+                    <div class="menu_in">
+                        <span>Bread Pakora</span><br>
+                        <span class="prc">18rs</span>
+                    </div>
+                    <hr>
+                    <img src="images/breakfast/dhabeli-1.jpg">
+                    <div class="menu_in">
+                        <span>Dhabeli</span><br>
+                        <span class="prc">20rs</span>
+                    </div>
+                    <hr>
+                    <img src="images/breakfast/medu%20vada.jpg">
+                    <div class="menu_in">
+                        <span>Medu vada</span><br>
+                        <span class="prc">25rs</span>
+                    </div>
+                     <hr>
+                    <img src="images/breakfast/kachori-4.jpg">
+                    <div class="menu_in">
+                        <span>Kachori</span><br>
+                        <span class="prc">20rs</span>
+                    </div>
+                </div>
+        
+                <div class="menu-div-2">    
+                    <img src="images/breakfast/misalpav_625x350_61465888599.jpg">
+                    <div class="menu_in">
+                        <span>Misal Pav</span><br>
+                        <span class="prc">35rs</span>
+                    </div>
+                    <hr>
+                    <img src="images/breakfast/kanda%20bhajji.jpg">
+                    <div class="menu_in">
+                        <span>Kanda Bhajji</span><br>
+                        <span class="prc">40rs</span>
+                    </div>
+                    <hr>
+                    <img src="images/breakfast/Onion%20Rava%20Dosa_thumb.jpg">
+                    <div class="menu_in">
+                        <span>Ambolii</span><br>
+                        <span class="prc">25rs</span>
+                    </div>
+                    <hr>
+                    <img src="images/breakfast/vada-pav-feature.jpg">
+                    <div class="menu_in">
+                        <span>Vada Pav</span><br>
+                        <span class="prc">12rs</span>
+                    </div>
+                    <hr>
+                    <img src="images/breakfast/rava%20upma.jpg">
+                    <div class="menu_in">
+                        <span>Uppeeth</span><br>
+                        <span class="prc">18rs</span>
+                    </div>
+                    <hr>
+                    <img src="images/breakfast/samosa.jpg">
+                    <div class="menu_in">
+                        <span>Samosa</span><br>
+                        <span class="prc">15rs</span>
+                    </div>
+                    <hr>
+                    <img src="images/breakfast/images.jpg">
+                    <div class="menu_in">
+                        <span>Dosa</span><br>
+                        <span class="prc">30rs</span>
+                    </div>
+                     <hr>
+                    <img src="images/breakfast/images%20(1).jpg">
+                    <div class="menu_in">
+                        <span>Idlee</span><br>
+                        <span class="prc">22rs</span>
+                    </div>   
+                </div>
+            </div>
+
+            <div id="Paris" class="tabcontent" style="display: none;">
+                <div class="menu-div">
+                    <img src="images/veg/vegan-pizza-696x391.jpg">
+                    <div class="menu_in">
+                        <span>Pizza</span><br>
+                        <span class="prc">60rs</span>
+                    </div>
+                    <hr>
+                    <img src="images/veg/biryani-6.jpg">
+                    <div class="menu_in">
+                        <span>Veg Biryani</span><br>
+                        <span class="prc">75rs</span>
+                    </div>
+                    <hr>
+                    <img src="images/veg/black-bean-avocado-and-kale-bowl-696x462.jpg">
+                    <div class="menu_in">
+                        <span>Simple Veg Thali</span><br>
+                        <span class="prc">80rs</span>
+                    </div>
+                    <hr>
+                    <img src="images/menu/menu1.jpg">
+                    <div class="menu_in">
+                        <span>Punjabi Thali</span><br>
+                        <span class="prc">130rs</span>
+                    </div>
+                    <hr>
+                    <img src="images/veg/chole-bhature-6.jpg">
+                    <div class="menu_in">
+                        <span>Egg Biryani</span><br>
+                        <span class="prc">30rs</span>
+                    </div>
+                    <hr>
+                    <img src="images/veg/cream-lentil-pasta-696x364.jpg">
+                    <div class="menu_in">
+                        <span>Veg Pasta</span><br>
+                        <span class="prc">40rs</span>
+                    </div>
+                    <hr>
+                    <img src="images/veg/curd-rice-1.jpg">
+                    <div class="menu_in">
+                        <span>Curd Rice</span><br>
+                        <span class="prc">45rs</span>
+                    </div>
+                     <hr>
+                    <img src="images/veg/indian-vegetable-curry---vegetarian-sabzi-cuisine-935075228-5abd933ffa6bcc00379d1fc1.jpg">
+                    <div class="menu_in">
+                        <span>Vegetable Curry</span><br>
+                        <span class="prc">30rs</span>
+                    </div>
+                </div>
+                <div class="menu-div-2">
+                    <img src="images/veg/lemon-rice-1.jpg">
+                    <div class="menu_in">
+                        <span>Masala Rice</span><br>
+                        <span class="prc">45rs</span>
+                    </div>
+                    <hr>
+                    <img src="images/veg/malai-kofta-5.jpg">
+                    <div class="menu_in">
+                        <span>Malai kofta</span><br>
+                        <span class="prc">40rs</span>
+                    </div>
+                    <hr>
+                    <img src="images/veg/NORTH-INDIAN-MEALS-BEZAWADA-BHOJANAM.jpg">
+                    <div class="menu_in">
+                        <span>South Indian</span><br>
+                        <span class="prc">140rs</span>
+                    </div>
+                    <hr>
+                    <img src="images/veg/SM02-2_NorthIndianThali1-600x600.jpg">
+                    <div class="menu_in">
+                        <span>North Indian</span><br>
+                        <span class="prc">150rs</span>
+                    </div>
+                    <hr>
+                    <img src="images/veg/Tawa-Roti-600x500.jpg">
+                    <div class="menu_in">
+                        <span>Samosa</span><br>
+                        <span class="prc">15rs</span>
+                    </div>
+                    <hr>
+                    <img src="images/veg/mung-dal-sultani.jpg">
+                    <div class="menu_in">
+                        <span>Dal</span><br>
+                        <span class="prc">20rs</span>
+                    </div>
+                    <hr>
+                    <img src="images/veg/paneer-makhani.jpg">
+                    <div class="menu_in">
+                        <span>Roti</span><br>
+                        <span class="prc">35rs</span>
+                    </div>
+                     <hr>
+                    <img src="images/veg/chapati-768x540.jpg">
+                    <div class="menu_in">
+                        <span>Chapati</span><br>
+                        <span class="prc">12rs</span>
+                    </div>     
+                </div>
+            </div>
+
+            <div id="Tokyo" class="tabcontent" style="display: none;">
+                <div class="menu-div">
+                    <img src="images/nonveg/punjabi.jpg">
+                    <div class="menu_in">
+                        <span>Chicken Thali</span><br>
+                        <span class="prc">140rs</span>
+                    </div>
+                    <hr>
+                    <img src="images/nonveg/mutton.jpg">
+                    <div class="menu_in">
+                        <span>Mutton Thali</span><br>
+                        <span class="prc">180rs</span>
+                    </div>
+                    <hr>
+                    <img src="images/nonveg/egg-thali.jpg">
+                    <div class="menu_in">
+                        <span>Egg Thali</span><br>
+                        <span class="prc">110rs</span>
+                    </div>
+                    <hr>
+                    <img src="images/menu/menu6.jpg">
+                    <div class="menu_in">
+                        <span>Chicken Biryani</span><br>
+                        <span class="prc">60rs</span>
+                    </div>
+                    <hr>
+                    <img src="images/nonveg/Mutton-Biryani-380x380.jpg">
+                    <div class="menu_in">
+                        <span>Mutton Biryani</span><br>
+                        <span class="prc">90rs</span>
+                    </div>
+                    <hr>
+                    <img src="images/nonveg/10-long-format-Spicy_Egg_Biryani_Recipe_Figaro_Olive_Oil_Video_Recipe-1.jpg">
+                    <div class="menu_in">
+                        <span>Egg Biryani</span><br>
+                        <span class="prc">40rs</span>
+                    </div>
+                    <hr>
+                    <img src="images/nonveg/13712664bce9b661ab0d9357c5d8a1d1.jpg">
+                    <div class="menu_in">
+                        <span>Egg Keema</span><br>
+                        <span class="prc">30rs</span>
+                    </div>
+                     <hr>
+                    <img src="images/nonveg/chicken-handi-biryani.jpg">
+                    <div class="menu_in">
+                        <span>Chicken Handi</span><br>
+                        <span class="prc">150rs</span>
+                    </div>
+                </div>
+                
+                <div class="menu-div-2">
+                      
+                    
+                    <img src="images/nonveg/Flavorwalla_Floyd-Cardoz_Sunday-Morning-Masala-Omelet_recipe-300x300.jpg">
+                    <div class="menu_in">
+                        <span>Masala Omelet</span><br>
+                        <span class="prc">20rs</span>
+                    </div>
+                    <hr>
+                    <img src="images/nonveg/egg-bhurji-masala-recipe1.jpg">
+                    <div class="menu_in">
+                        <span>Egg Bhurji</span><br>
+                        <span class="prc">35rs</span>
+                    </div>
+                    <hr>
+                    <img src="images/nonveg/batter-fish.jpg">
+                    <div class="menu_in">
+                        <span>Buttor Fish</span><br>
+                        <span class="prc">40rs</span>
+                    </div>
+                    <hr>
+                    <img src="images/nonveg/images.jpg">
+                    <div class="menu_in">
+                        <span>Chicken Burger</span><br>
+                        <span class="prc">35rs</span>
+                    </div>
+                    <hr>
+                    <img src="images/nonveg/jps-lunch-home-1.jpg">
+                    <div class="menu_in">
+                        <span>Fish Thali</span><br>
+                        <span class="prc">130rs</span>
+                    </div>
+                    <hr>
+                    <img src="images/nonveg/pyazi-kebab-2.jpg">
+                    <div class="menu_in">
+                        <span>Kabbab</span><br>
+                        <span class="prc">80rs</span>
+                    </div>
+                     <hr>
+                    <img src="images/nonveg/sunday-chiken-roast.jpg">
+                    <div class="menu_in">
+                        <span>Chicken Roast</span><br>
+                        <span class="prc">100rs</span>
+                    </div> 
+                </div>
+            </div>
+
+            <div id="Ind" class="tabcontent" style="display: none;">
+                <div class="menu-div">
+                    <img src="images/chines/spring-rolls.jpg">
+                    <div class="menu_in aos-init aos-animate" data-aos="fade-right" data-aos-duration="300"><span>Chicken Spring Rolls</span><br>
+                        <span class="prc">60rs</span>
+                    </div>
+                    <hr>
+                    <img src="images/chines/chicken%20mancurien.jpg">
+                    <div class="menu_in">
+                        <span>Chicken Manchurian</span><br>
+                        <span class="prc">50rs</span>
+                    </div>
+                    <hr>
+                    <img src="images/chines/chicken-lollipop.jpg">
+                    <div class="menu_in">
+                        <span>Chicken Lollipop</span><br>
+                        <span class="prc">55rs</span>
+                    </div>
+                    <hr>
+                    <img src="images/chines/Chicken-manchow-soup.jpg">
+                    <div class="menu_in">
+                        <span>Manchow Soup</span><br>
+                        <span class="prc">30rs</span>
+                    </div>
+                    <hr>
+                    <img src="images/chines/chop-suey.jpg">
+                    <div class="menu_in">
+                        <span>Chop Suey</span><br>
+                        <span class="prc">35rs</span>
+                    </div>
+                    <hr>
+                    <img src="images/chines/crispy-chilli-chicken-.jpg">
+                    <div class="menu_in">
+                        <span>Crispy Chilli Chicken</span><br>
+                        <span class="prc">45rs</span>
+                    </div>
+                    <hr>
+                    <img src="images/chines/darsaan.jpg">
+                    <div class="menu_in">
+                        <span>Darsaan</span><br>
+                        <span class="prc">40rs</span>
+                    </div>
+                     <hr>
+                    <img src="images/chines/fried-rice.jpg">
+                    <div class="menu_in">
+                        <span>Fried Rice</span><br>
+                        <span class="prc">42rs</span>
+                    </div>
+                </div>
+    
+                <div class="menu-div-2">   
+                    <img src="images/chines/friend%20wontons.jpg">
+                    <div class="menu_in">
+                        <span>Friend Wontons</span><br>
+                        <span class="prc">30rs</span>
+                    </div>
+                    <hr>
+                    <img src="images/chines/garlic-chicken.jpg">
+                    <div class="menu_in">
+                        <span>Garlic Chicken</span><br>
+                        <span class="prc">60rs</span>
+                    </div>
+                    <hr>
+                    <img src="images/chines/hakka-noodles.jpg">
+                    <div class="menu_in">
+                        <span>Hakka Noodles</span><br>
+                        <span class="prc">40rs</span>
+                    </div>
+                    <hr>
+                    <img src="images/chines/hunan-chicken.jpg">
+                    <div class="menu_in">
+                        <span>Hunan Chicken</span><br>
+                        <span class="prc">58rs</span>
+                    </div>
+                    <hr>
+                    <img src="images/chines/sesame-honey-chilli-potatoes.jpg">
+                    <div class="menu_in">
+                        <span>Honey Chilli Potatoes</span><br>
+                        <span class="prc">40rs</span>
+                    </div>
+                    <hr>
+                    <img src="images/chines/sweet-corn-soup.jpg">
+                    <div class="menu_in">
+                        <span>Sweet Corn Soup</span><br>
+                        <span class="prc">30rs</span>
+                    </div>
+                     <hr>
+                    <img src="images/chines/Veg-Manchurian2.jpg">
+                    <div class="menu_in">
+                        <span>Veg Manchurian</span><br>
+                        <span class="prc">35rs</span>
+                    </div>  
+                </div>
+            </div>
+
+            </div>
+    </div>
+    
+</section>
+<footer>
+    <div class="container">
+        
+        <ul class="socl"><h2>Follow us</h2>
+
+            <li class="ani"><a href="#"><span class="fa fa-instagram"></span></a></li>
+            <li class="ani"><a href="#"><span class="fa fa-youtube"></span></a></li>
+            <li class="ani"><a href="#"><span class="fa fa-twitter"></span></a></li>
+            <li class="ani"><a href="#"><span class="fa fa-facebook"></span></a></li>
+        </ul>
+        
+        <ul class="add"><h2>Contact</h2>
+            <li><span class="fa fa-phone"></span>+91 8087 2846 05</li>
+            <br>
+            <li><span class="fa fa-envelope"></span>darshanhotel@gmail.com</li>	
+        </ul>
+
+        
+        <ul><h2>For Best Deals</h2>
+            <form>
+                <li><input type="text" placeholder="Enter your email id"></li>
+                <br><li><button >Subscribe</button></li>
+            </form>
+
+        </ul>
+
+    </div>
+    
+    
+</footer>
+    <p class="foot-txt">Copyright © 2018 Hotel Darshan Deluxe. All Rights Reserved</p>
+<script>
+    $(document).ready(function(){
+        $("#img-show").click(function(){
+            $(this).hide();
+            $(".sm-gal").show(300);
+        });
+    });
+</script>
+<script>
+    $(document).ready(function(){
+        $("#menu-show").click(function(){
+            $(this).hide();
+            $(".sm-menu").show(300);
+        });
+    });
+</script>
+<script>
+function myFunction() 
+{
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+<!--for scrolling thent changes navbar menus-->
+<script>
+function onScroll(event){
+    var scrollPos = $(document).scrollTop();
+    $('#myTopnav a').each(function () {
+        var currLink = $(this);
+        var refElement = $(currLink.attr("href"));
+        if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+            $('#myTopnav a').removeClass("active");
+            currLink.addClass("active");
+        }
+        else{
+            currLink.removeClass("active");
+        }
+    });
+}
+</script>
+<script>
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" actab", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " actab";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+
+
+</body>
+</html>
