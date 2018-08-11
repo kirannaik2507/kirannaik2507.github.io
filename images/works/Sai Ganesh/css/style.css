@@ -152,6 +152,11 @@
         border-radius: 0;
         padding: 10px 0;
     }
+    .carousel-caption p
+    {
+        font-size: 28px;
+        margin-top: 50px; 
+    }
     
 }
 .navbar 
@@ -178,7 +183,6 @@ nav img
     color: #fff;
     font-weight: 600;
     font-size: 17px;
-    text-decoration: underline;
     background: none;
 }
 .carousel-indicators li 
@@ -348,6 +352,23 @@ footer li
 *
 {
     font-family: 'PT Sans', sans-serif;
+}
+.thim-click-to-bottom 
+{
+    position: absolute;
+    bottom: 18%;
+    left: 48%;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    font-size: 40px;
+    line-height: 40px;
+    -webkit-animation: bounce 4s infinite ease-in-out;
+}
+.thim-click-to-bottom .fa
+{
+    font-size: 22px;
+    color: #fff;
 }
 .foo p
 {

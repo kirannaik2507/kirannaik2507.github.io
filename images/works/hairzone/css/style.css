@@ -750,6 +750,11 @@ button:hover
     background: none;
     border: 2px solid #fb2e59;
 }
+topnav a:focus
+{
+    color: #fff;
+    background-color:  #fb2e59;
+}
 .active 
 {
     background-color:  #fb2e59;
