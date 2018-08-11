@@ -12,13 +12,17 @@
     .topnav img
     {
         height: 30px;
+        margin-top: 10px;
+        margin-left: 5px;
+        height: 30px;
     }
     .topnav a.icon 
     {
         float: right;
         font-size: 30px;
         color: black;
-        margin: 0 25px;
+        margin-top: 10px;
+        margin-right: 10px;
         display: block;
         
     
@@ -47,6 +51,11 @@
 }
 @media only screen and (min-width: 100px) and (max-width: 500px)/****mobile***/
 {
+    *
+    {
+        padding: 0;
+        margin: 0;
+    }
     nav
     {
 
@@ -66,15 +75,35 @@
         margin: 0;
         padding: 0;
     }
-    #banner .text 
+    #banner
+    {
+        height: 240px;
+    }
+    #banner .text button
     {
         display: none;
     }
+    #banner .text 
+    {
+       position: relative; 
+    }
     #banner img
     {
-        position: relative;
+        position: absolute;
+        height: 200px;
         margin-top: 50px;
 
+    }
+    
+    #banner .text h1 
+    {
+        font-size: 28px;
+        padding-left: 12px;
+        padding-top: 95px;
+        width: 189px;
+        text-transform: capitalize;
+        text-align: left;
+        color: white;
     }
     .container
     {
@@ -82,20 +111,21 @@
         margin: auto;
 
     }
+    #about
+    {
+        text-align: center;
+    
+    }
     #about p
     {
         padding: 10px 5px;
     }
     #about img
     {
-        width: 100%;
+        width: 290px;
         padding: 5px 0;
     }
-    
-    #servic
-    {
-        height: 1140px;
-    }
+
     #servic .serv-img
     {
         width: 100%;
@@ -142,15 +172,16 @@
     }
     #contact button, footer button
     {
-        height: 40px;
-        width: 95%;
-        margin: 4px 0;
-        border-radius: 2px;
+        margin: 5px 0;
         font-size: 14px;
     }
     footer
     {
        text-align: center; 
+    }
+    footer form
+    {
+        padding: 25px 0;
     }
     footer input[type=text]
     {
@@ -197,10 +228,65 @@
     {
         padding-top: 35px;
     }
+    p
+    {
+        padding: 0 5px;
+    }
+    button
+    {
+        border: 0;
+        height: 40px;
+        width: 95%;
+        border-radius: 10px;
+        background: #fb2e59;
+        text-transform: uppercase;
+        color: white;
+        font-size: 18px;
+        cursor: pointer;
+    }
+    section
+    {
+        padding-top: 25;
+        padding-bottom: 35px;
+    }
+    h2
+    {
+        padding: 15px 0;
+    }
+    h1
+    {
+        text-align: center;
+        color: #fb2e59;
+        padding:15px 0;
+        text-transform: uppercase;
+        font-size: 30px;
+    }
   
 }
 @media only screen and (min-width: 501px) and (max-width: 959px)/****tablet***/
 {
+    *
+    {
+        margin: 0;
+        padding: 0;
+    }
+    section
+    {
+        padding-top: 25px;
+        padding-bottom: 35px;
+    }
+    button
+    {
+        border: 0;
+        height: 50px;
+        width: 240px;
+        border-radius: 10px;
+        background: #fb2e59;
+        text-transform: uppercase;
+        color: white;
+        font-size: 18px;
+        cursor: pointer;
+    }
     nav
     {
 
@@ -216,14 +302,34 @@
         margin: 0;
         padding: 0;
     }
+    #banner
+    {
+        height: 550px;
+    }
     #banner .text 
     {
-        display: none;
+        padding-left: 50px;
+        padding-top: 200px;
+        position: relative;
+    }
+    #banner .text h1
+    {
+
+        font-size: 40px;
+        width: 422px;
+        text-transform: capitalize;
+        text-align: left;
+        color: white;
+    }
+    #banner .text buttton
+    {
+        height: 50px;
     }
     #banner img
     {
-        position: relative;
+        position: absolute;
         margin-top: 50px;
+        height: 500px;
 
     }
     .container
@@ -247,10 +353,7 @@
     {
         text-align: center;
     }
-    #servic
-    {
-        height: 1140px;
-    }
+    
     #servic .serv-img
     {
         width: 100%;
@@ -278,6 +381,9 @@
     .str-txt, .str-txt2, .abt-txt
     {
         text-align: center;
+    }
+    .str-txt2 p{
+        padding-bottom: 50px;
     }
     #contact
     {
@@ -302,10 +408,8 @@
     }
     #contact button, footer button
     {
-        height: 40px;
-        width: 60%;
+        height: 50px;
         margin: 15px 0;
-        border-radius: 2px;
         font-size: 14px;
     }
     footer
@@ -357,12 +461,40 @@
     {
         padding-top: 35px;
     }
+    h2
+    {
+        padding: 15px 0;  
+    }
+    p
+    {
+        padding: 0 5px;
+    }
+    h1
+    {
+        text-align: center;
+        color: #fb2e59;
+        padding: 20px 0;
+        text-transform: uppercase;
+        font-size: 28px;
+    }
   
 }
 
 @media only screen and (min-width: 960px) and (max-width: 1600px)/****desktop***/
 {
-
+    
+    button
+    {
+        border: 0;
+        height: 55px;
+        width: 240px;
+        border-radius: 10px;
+        background: #fb2e59;
+        text-transform: uppercase;
+        color: white;
+        font-size: 18px;
+        cursor: pointer;
+    }
     nav .topnav a:first-child
     {
         margin-right: 150px;
@@ -373,9 +505,7 @@
     {
         width: 960px;
         margin: auto;
-
     }
-
     h1
     {
         text-align: center;
@@ -409,6 +539,11 @@
         text-decoration: none;
         text-transform: uppercase;
         font-size: 17px;
+    }
+    #banner .text
+    {
+        position: relative;
+        margin: auto;
     }
     #banner .text h1
     {
@@ -674,6 +809,13 @@
         padding: 0;
        
     }
+    h1
+    {
+        text-align: center;
+        color: #fb2e59;
+        text-transform: uppercase;
+        font-size: 35px;
+    }
 }
 #strenths h2
 {
@@ -695,30 +837,7 @@ p
  
 }
 
-#banner .text
-{
-    position: relative;
-    margin: auto;
-}
-button
-{
-    border: 0;
-    height: 55px;
-    width: 240px;
-    border-radius: 10px;
-    background: #fb2e59;
-    text-transform: uppercase;
-    color: white;
-    font-size: 18px;
-    cursor: pointer;
-}
-h1
-{
-    text-align: center;
-    color: #fb2e59;
-    text-transform: uppercase;
-    font-size: 35px;
-}
+
 *
 {
 
