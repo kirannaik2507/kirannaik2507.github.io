@@ -131,11 +131,12 @@
         padding: 5px 0;
     }
 
-    #servic .serv-img
+    #servic .serv-img, #servic .serv-imgr
     {
         width: 100%;
+        padding: 10px 0;
         text-align: center;
-        margin-right: 249px;
+
     }
     #servic img
     {
@@ -355,8 +356,8 @@
     }
     #about img
     {
-        width: 33%;
-        height: 175px;
+        width: 300px;
+        height: 200px;
         padding: 5px 0;
     }
 
@@ -364,12 +365,17 @@
     {
         text-align: center;
     }
-    
-    #servic .serv-img
+    #servic
     {
-        width: 100%;
+        height: 575px;
+    }
+    #servic .serv-img, #servic .serv-imgr
+    {
+        width: 50%;
+        float: left;
         text-align: center;
-        margin-right: 249px;
+        padding: 10px 0;
+       
     }
     #servic img
     {
@@ -377,11 +383,7 @@
         height: 100px;
         width: 100px;
     }
-    #mr
-    {
-        margin-right: 0;
-        text-align: center;
-    }
+    
     #servic p
     {
 
@@ -403,6 +405,8 @@
     #contact p
     {
         padding: 0 5px;
+        margin: auto;
+        width: 50%;
         color: white;
     }
     #contact .con-box input[type=text], #contact .con-box input[type=date], #contact .con-box input[type=time], footer input[type=text]
@@ -668,10 +672,11 @@
         height: 100px;
         width: 100px;
     }
-    #mr
+    #servic .serv-imgr
     {
         margin-right: 0;
         text-align: center;
+        padding: 20px 0;
     }
     #servic p
     {
