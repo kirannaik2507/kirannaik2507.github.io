@@ -48,7 +48,7 @@
         text-align: center;
     }
 }
-@media only screen and (min-width: 100px) and (max-width: 500px)/****mobile***/
+@media only screen and (min-width: 100px) and (max-width: 767px)/****mobile***/
 {
     *
     {
@@ -79,11 +79,16 @@
         margin: 0;
         padding: 0;
     }
-    #banner
+    #banner        
     {
-        height: 215px;
+        background:url(../images/bg1.png)no-repeat center center;
+        display:table;
+        height:250px;
+        position:relative;
+        width:100%;
+        background-size:cover;
     }
-    #banner .text button
+    #banner .text button, #about .salon, #about .man 
     {
         display: none;
     }
@@ -93,8 +98,8 @@
     }
     #banner img
     {
-        position: absolute;
-        height: 200px;
+        /*position: absolute;
+        height: 200px;*/
         width: 100%;
         margin-top: 50px;
 
@@ -104,7 +109,7 @@
     {
         font-size: 28px;
         padding-left: 12px;
-        padding-top: 95px;
+        padding-top: 125px;
         width: 189px;
         text-transform: capitalize;
         text-align: left;
@@ -130,11 +135,15 @@
         width: 290px;
         padding: 5px 0;
     }
-
+    #servic
+    {
+        height: 540px;
+    }
     #servic .serv-img, #servic .serv-imgr
     {
-        width: 100%;
+        width: 50%;
         padding: 10px 0;
+        float: left;
         text-align: center;
 
     }
@@ -269,7 +278,7 @@
     }
   
 }
-@media only screen and (min-width: 501px) and (max-width: 959px)/****tablet***/
+@media only screen and (min-width: 768px) and (max-width: 959px)/****tablet***/
 {
     *
     {
@@ -315,6 +324,11 @@
     }
     #banner
     {
+        background:url(../images/bg1.png)no-repeat center center;
+        display:table;
+        position:relative;
+        width:100%;
+        background-size:cover;
         height: 550px;
     }
     #banner .text 
@@ -327,7 +341,7 @@
     {
 
         font-size: 40px;
-        width: 422px;
+        width: 275px;
         text-transform: capitalize;
         text-align: left;
         color: white;
@@ -346,13 +360,13 @@
     }
     .container
     {
-        width: 100%;
+        width: 768px;
         margin: auto;
 
     }
     #about p
     {
-        padding: 10px 5px;
+        padding: 10px 10px;
     }
     #about img
     {
@@ -481,6 +495,7 @@
     p
     {
         padding: 0 5px;
+        line-height: 22px;
     }
     h1
     {
@@ -573,7 +588,12 @@
     }
     #banner
     {
-        height: 685px;
+        background:url(../images/bg1.png)no-repeat center center;
+        display:table;
+        height:700px;
+        position:relative;
+        width:100%;
+        background-size:cover;
     }
     #banner img
     {
