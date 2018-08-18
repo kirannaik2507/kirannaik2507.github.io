@@ -61,7 +61,7 @@
     }
     .navbar-toggle
     {
-        border-color: none;
+        border-color: purple;
     }
     .navbar-inverse, .navbar-toggle 
     {
@@ -69,7 +69,7 @@
     }
     nav img 
     {
-        margin-top: -18px;
+        margin-top: -16px;
         height: 50px;
     }
     #Services p
@@ -157,6 +157,14 @@
         font-size: 28px;
         margin-top: 50px; 
     }
+    #Gallary .smhide
+    {
+        margin-top: 20px;
+    }
+    nav img
+    {
+        margin-top: -20px;
+    }
     
 }
 .navbar 
@@ -167,10 +175,7 @@
     margin-bottom: 0px;
     text-transform: uppercase;
 }
-nav img
-{
-    margin-top: -20px;
-}
+
 
 .navbar-inverse .navbar-nav>li>a 
 {

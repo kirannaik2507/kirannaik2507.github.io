@@ -16,9 +16,11 @@
         width: 175px;
         text-align: center;
     }
+	
   
 }
 @media screen and (min-width: 120px) and (max-width: 991px)
+
 {
     #abt .col-md-4
     {
@@ -43,7 +45,9 @@
     {
         margin-top: 215px;
     }
-    
+    .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: white;
+}
  
 }
 p
@@ -261,7 +265,8 @@ p, #skills h4
 }
 section
 {
-    padding-bottom: 50px;
+    padding-bottom: 75px;
+	padding-top: 25px;
 }
 #about_me ,#services
 {
