@@ -175,6 +175,8 @@
     {
         padding: 0 5px;
         color: white;
+        width: 300px;
+        margin: auto;
     }
     #contact .con-box input[type=text], #contact .con-box input[type=date], #contact .con-box input[type=time], footer input[type=text]
     {
@@ -916,7 +918,7 @@ topnav a:focus
 .active 
 {
     background-color:  #fb2e59;
-    color: white;
+    color: white !important;
 }
 
 .topnav .icon 
