@@ -20,19 +20,21 @@
 <title>HairZone</title>
 </head>
 <body>
-<nav>
-    <div class="topnav" id="myTopnav">
-        <a href="#banner" ><img src="images/logo.png" height="45px"></a>
-        <a href="#banner" class="active" class="btn">Home</a>
-        <a href="#about" class="btn">About</a>
-        <a href="#servic" class="btn">Services</a>
-        <a href="#strenths" class="btn">Strengths</a>
-        <a href="#contact" class="btn">Contact</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-        </a>
-    </div>
-</nav>
+<header>
+    <nav>
+        <div class="topnav" id="myTopnav">
+            <a href="#banner" ><img src="images/logo.png" height="45px"></a>
+            <a href="#banner" class="active" class="btn">Home</a>
+            <a href="#about" class="btn">About</a>
+            <a href="#servic" class="btn">Services</a>
+            <a href="#strenths" class="btn">Strengths</a>
+            <a href="#contact" class="btn">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </nav>
+</header>
 <section id="banner">
     <!--<img src="images/bg1.png">-->
         <div class="text">
@@ -214,6 +216,18 @@ function onScroll(event){
     });
 }
 </script>
+<script>
+    $(window).scroll(function() {
+		if ($(this).scrollTop() > 1){  
+			$('header').addClass("sticky");
+		  }
+		  else{
+			$('header').removeClass("sticky");
+		  }
+		});
+</script>
+  
+
 
 </body>
 </html>

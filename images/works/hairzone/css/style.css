@@ -117,7 +117,7 @@
     }
     .container
     {
-        width: 100%;
+        width: 320px;;
         margin: auto;
 
     }
@@ -196,6 +196,10 @@
     footer
     {
        text-align: center; 
+    }
+    footer .container
+    {
+        width: 100%;
     }
     footer form
     {
@@ -516,7 +520,24 @@
 
 @media only screen and (min-width: 960px) and (max-width: 1600px)/****desktop***/
 {
-    
+    .sticky nav
+    {
+        height: 65px;
+        transition: all 0.4s ease-out;
+        box-shadow: 0 5px 10px rgba(0,0,0,0.12), 0 7px 35px rgba(0,0,0,0.24);
+    }
+    .sticky nav img
+    {
+        height: 35px;
+    }
+    .sticky nav .topnav a:first-child 
+    {
+        margin-top: -8px;
+    }
+    .sticky .topnav a 
+    {
+        padding: 22px 20px;
+    }
     button
     {
         border: 0;
@@ -864,6 +885,7 @@
         text-transform: uppercase;
         font-size: 35px;
     }
+    
 }
 #strenths h2
 {
@@ -883,6 +905,8 @@ p
 {
 
     font-family: 'Lato', sans-serif;
+}
+
 }
 .topnav 
 {
