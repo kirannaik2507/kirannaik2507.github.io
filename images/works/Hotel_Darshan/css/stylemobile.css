@@ -1,4 +1,4 @@
-@media only screen and (min-width: 50px) and (max-width: 1169px)
+@media only screen and (min-width: 50px) and (max-width: 768px)
 {
     .topnav
     {
@@ -818,7 +818,7 @@
     }
     #about-1
     {
-        height: 650px;
+        height: 685px;
     }
     #about-1 img
     {

@@ -68,6 +68,7 @@
         position: fixed;
         z-index: 999;
         margin-top: -9px;
+	box-shadow: 0 5px 10px rgba(0,0,0,0.12), 0 7px 35px rgba(0,0,0,0.24);
 
     }
     .str-txt, .str-txt2, .abt-txt
@@ -325,6 +326,7 @@
         position: fixed;
         z-index: 999;
         margin-top: -9px;
+	box-shadow: 0 5px 10px rgba(0,0,0,0.12), 0 7px 35px rgba(0,0,0,0.24);
 
     }
     section
@@ -426,7 +428,7 @@
     #servic p
     {
 
-
+	width: 100%;
         text-transform: uppercase;
         padding: 10px 0;
         font-size: 16px;

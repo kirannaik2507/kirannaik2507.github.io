@@ -324,13 +324,17 @@ footer .soc span:hover
     transition: .5s ease-in;
     -webkit-transition: .5s ease-in;
 }
+.fas
+{
+    font-size: 25px;
+}
 footer a span
 {
         height: 35px;
     width: 35px;
     font-size: 20px;
     border: 1px solid;
-    padding: 10px;
+    padding: 6px;
     text-align: center;
 }
 footer .add span
