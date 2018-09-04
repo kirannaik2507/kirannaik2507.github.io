@@ -1,5 +1,6 @@
 @media only screen and (min-width:0px) and (max-width: 767px)
 {
+    
     #myCarousel h1
     {
         font-size: 20px;
@@ -165,7 +166,14 @@
     {
         margin-top: -20px;
     }
-    
+    .carousel-caption 
+    {
+
+        top: 30%;
+        width: 855px;
+        margin: auto;
+
+    }
 }
 .navbar 
 {
@@ -210,14 +218,7 @@ section
 {
     padding: 50px 0;
 }
-.carousel-caption 
-{
-    
-    top: 30%;
-    width: 855px;
-    margin: auto;
-    
-}
+
 .carousel-caption h1
 {
     font-size: 70px;
