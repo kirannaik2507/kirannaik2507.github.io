@@ -1,9 +1,13 @@
 @media only screen and (min-width:0px) and (max-width: 767px)
 {
-    
+    #myCarousel p
+    {
+        margin-top: 14px;
+    }
     #myCarousel h1
     {
-        font-size: 20px;
+        font-size: 28px;
+        letter-spacing: 1px;
     }
     .carousel-indicators
     {
@@ -11,7 +15,8 @@
     }
     #myCarousel img
     {
-        height: 250px;
+        height: 300px;
+        width: 100%;
     }
     h1 
     {
@@ -108,7 +113,32 @@
         border-radius: 0;
         padding: 3px 0;
     }
+    
+    .thim-click-to-bottom a
+    {
+        display: none;
+    }
 
+}
+@media only screen and (min-width:768px) and (max-width: 1170px)
+{
+    .carousel-indicators
+    {
+        display: none;
+    }
+    h1 
+    {
+        margin-bottom:0px;
+        font-size: 30px;
+        
+    }
+    h3
+    {
+
+        font-size: 16px;
+    }
+    
+    
 }
 @media only screen and (min-width:768px) and (max-width: 1600px)
 {
@@ -170,10 +200,27 @@
     {
 
         top: 30%;
-        width: 855px;
         margin: auto;
 
     }
+    .thim-click-to-bottom 
+    {
+        position: absolute;
+        bottom: 18%;
+        left: 48%;
+        width: 40px;
+        height: 40px;
+        color: #fff;
+        font-size: 40px;
+        line-height: 40px;
+        -webkit-animation: bounce 4s infinite ease-in-out;
+    }
+    .thim-click-to-bottom .fa
+    {
+        font-size: 22px;
+        color: #fff;
+    }
+   
 }
 .navbar 
 {
@@ -221,8 +268,9 @@ section
 
 .carousel-caption h1
 {
-    font-size: 70px;
+    font-size: 60px;
     font-weight: 700;
+    letter-spacing: 4px;
     color: white;
 }
 /***about*/
@@ -365,23 +413,7 @@ footer li
 {
     font-family: 'PT Sans', sans-serif;
 }
-.thim-click-to-bottom 
-{
-    position: absolute;
-    bottom: 18%;
-    left: 48%;
-    width: 40px;
-    height: 40px;
-    color: #fff;
-    font-size: 40px;
-    line-height: 40px;
-    -webkit-animation: bounce 4s infinite ease-in-out;
-}
-.thim-click-to-bottom .fa
-{
-    font-size: 22px;
-    color: #fff;
-}
+
 .foo p
 {
     padding-top: 9px;
