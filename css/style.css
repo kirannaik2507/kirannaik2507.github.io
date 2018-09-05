@@ -410,7 +410,7 @@ input[type=text], input[type=number]
 {
     background: #ec6a68;
     color: white;
-    width: 185px;;
+    width: 100%;
     border-radius: 0;
     margin-top: 25px;
 }
@@ -433,10 +433,7 @@ input[type=text], input[type=number]
 {
     padding-bottom: 25px;
 }
-#services .col-md-4:hover
-{
-    box-shadow: 0 5px 10px rgba(0,0,0,0.12), 0 7px 35px rgba(0,0,0,0.24);
-}
+
 footer .list-inline
 {
     padding-top: 35px;
