@@ -1,4 +1,4 @@
-@media only screen and (min-width: 50px) and (max-width: 768px)
+@media only screen and (min-width: 50px) and (max-width: 1170px)
 {
     .topnav
     {
@@ -135,12 +135,23 @@
     {
         display: none;
     }
+    h1 
+    {
+        padding: 10px 0px;
+        font-size: 24px;
+        text-align: center;
+        font-weight: 600;
+        color: #D2691E;
+        text-transform: capitalize;
+    }
      #banner .text h3
     {
         color: #fff;
         margin-top: 10px;
         font-size: 20px;
         text-align: center;
+        font-weight: 100;
+        font-style: italic;
     }
      #banner .text span, #event-banner span, #contact-banner span, #service-banner span, #menu-banner span, #about-banner span
     {
@@ -150,7 +161,10 @@
     }
     #menu-banner h1, #about-banner h1, #event-banner h1, #contact-banner h1, #service-banner h1  
     {
-        margin-top: 85px;
+       
+        margin-top: 97px;
+        color: #FFF;
+        font-size: 30px;
         color: #FFF;
     }
     #banner .text button
@@ -617,17 +631,7 @@
 
     
     /****************events pag***************************/
-    #event-banner .event-text h1
-    {
-        padding-top: 75px;
-        font-size: 30px;
-        position: relative;
-        text-transform: capitalize;
-        color: white;
-        width: 320px;
-        margin: auto;        
-
-    }
+   
     #event-banner
     {
         background:url(../images/banner/bg1.jpg)no-repeat center center fixed;
@@ -639,15 +643,16 @@
     }
     #event-1 img
     {
-        height: 275px;
-        width: 275px;
+        height: 250px;
+        width: 250px;
         float: none;
+        margin: 25px 0;
         border-radius: 50%;
     }
     #event-2 img
     {
-        height: 275px;
-        width: 275px;
+        height: 250px;
+        width: 250px;
         float: none;
         margin: 25px 0;
         border-radius: 50%;
@@ -660,7 +665,8 @@
     .event-1-info h3, .event-2-info h3
     {
         margin: 25px 0;
-        font-size: 19px;
+        font-size: 18px;
+        padding: 0 5px;
     }
     .event-1-info p, .event-2-info p
     {
@@ -670,6 +676,7 @@
     #event-2 h1, .event-2-info h3, .event-2-info p
     {
         color: #fff;
+        
     }
     #event-1
     {
@@ -816,10 +823,6 @@
         background-size:cover;
         height: 200px;
     }
-    #about-1
-    {
-        height: 685px;
-    }
     #about-1 img
     {
         width: 100%;
@@ -829,6 +832,7 @@
         line-height: 22px;
         text-align: center;
         margin: 30px 0;
+        padding: 0 5px;
     }
     #about-2
     {
@@ -930,7 +934,7 @@
     {
         margin-bottom: 25px;
         line-height: 22px;
-        padding: 0 2px;
+        padding: 0 5px;
     }
     #about-3 .slideshow-container h3
     {
