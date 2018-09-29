@@ -10,14 +10,6 @@
         display: none;
         
     }
-    .topnav img
-    {
-        margin-left: 10px;
-        height: 40px;
-        width: 40px;
-        padding: 5px 0;
-
-    }
     .topnav a.icon 
     {
         float: right;
@@ -165,7 +157,14 @@
         display: none;
 
     }
-    
+    .topnav img
+    {
+        margin-left: 10px;
+        height: 40px;
+        width: 40px;
+        margin-top: 7px;
+
+    }
     /******************************banner***********************************/
     #banner
     {
@@ -211,7 +210,7 @@
     }
     .small-banner .info p:nth-child(2)
     {
-        font-size: 24px;
+        font-size: 22px;
         line-height: 35px;
         font-weight: 300;
     }
@@ -832,18 +831,7 @@
         text-align:center;
         margin-top: 25px;
     }
-    #testimonials .fade {
-      -webkit-animation-name: fade;
-      -webkit-animation-duration: 1.5s;
-      animation-name: fade;
-      animation-duration: 1.5s;
-    }
-
-    @-webkit-keyframes fade {
-      from {opacity: .4} 
-      to {opacity: 1}
-    }
-
+    
 
     /*****************************blog*********************************/
     #blog .p
@@ -914,7 +902,7 @@
         color: #fff;
         text-align: center;
         margin-top: 40px;
-        height: 900px;
+        height: 775px;
     }
     footer ul h3
     {
@@ -942,7 +930,7 @@
     }
     footer ul li
     {
-        line-height: 28px;
+        line-height: 22px;
 
     }
     footer .socl
@@ -954,6 +942,10 @@
     {
         margin-left: 10px;
 
+    }
+    footer .links img
+    {
+        display: none;
     }
     footer .links span
     {
@@ -970,7 +962,6 @@
     footer .course a
     {
         border-radius: 2px;
-        margin-right: 10px;
         font-size: 14px;
         text-transform: capitalize;
         font-weight: 400;
