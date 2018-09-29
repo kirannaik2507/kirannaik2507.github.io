@@ -157,13 +157,11 @@
         display: none;
 
     }
-    .topnav img
+    nav img
     {
         margin-left: 10px;
         height: 40px;
         width: 40px;
-        margin-top: 5px;
-
     }
     /******************************banner***********************************/
     #banner
