@@ -32,7 +32,7 @@
             <a href="#strenths" class="btn">Strengths</a>
             <a href="#contact" class="btn">Contact</a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
+            <i class="fas fa-bars"></i>
             </a>
         </div>
     </nav>
@@ -307,6 +307,18 @@ $('#timepicker').timepicker({
     scrollbar: true
 });
     </script>
+ <!-------------for hamburger and close icone-------------->
+    <script>
+        $(document).ready(function()
+        {
+            $(".icon").click(function(){
+                
+                $(".fas").toggleClass('fa-times');	     
+
+            });
+        });
+    </script>
+
 
 </body>
 </html>
