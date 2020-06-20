@@ -375,6 +375,10 @@ footer a:hover{
     }
     .footer-copyright p{
         width: 250px;
+        line-height: 20px;
+    }
+    .footer-copyright{
+        height: 60px;
     }
 
 }
