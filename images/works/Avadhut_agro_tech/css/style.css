@@ -10,18 +10,18 @@ body {
     color: #757575;
 }
 h2 {
-    font-size: 24px;
-    text-transform: uppercase;
-    color: #303030;
+    font-size: 26px;
+    text-transform: capitalize;
+    color: #f8971d;
     font-weight: 600;
     margin-bottom: 25px;
     margin-top: 50px;
 }
 h4 {
-    font-size: 19px;
+    font-size: 18px;
     line-height: 1.375em;
-    color: #303030;
-    font-weight: 400;
+    color: #202020;
+    font-weight: 600;
     margin-bottom: 30px;
 }  
 
@@ -30,7 +30,7 @@ h4 {
 }
 .logo-small {
   color: #f8971d;
-  font-size: 50px;
+  font-size: 30px;
 }
 .logo {
   color: #f8971d;
@@ -101,23 +101,23 @@ h4 {
 }*/
 .navbar {
     margin-bottom: 0;
+    text-transform: capitalize;
     box-shadow: 0 0 0 rgba(0,0,0,0.12), 0 0 15px rgba(0,0,0,0.24);
     background-color: #ffff;
     z-index: 9999;
     border: 0;
     font-size: 12px !important;
     line-height: 1.42857143 !important;
-    letter-spacing: 4px;
     border-radius: 0;
     font-family: Montserrat, sans-serif;
 }
 .navbar li a, .navbar .navbar-brand {
-    color: #f8971d !important;
+    color: #757575 !important;
 
 }
 .navbar-nav li a:hover, .navbar-nav li.active a {
-    color: #ffff !important;
-    background-color: #f8971d !important;
+    color:#f8971d !important;
+    background: none !important;
 }
 .navbar-default .navbar-toggle {
   border-color: transparent;
@@ -175,7 +175,7 @@ footer .glyphicon {
 
 /************Navbar************/
 .navbar {
-    min-height: 70px;
+    min-height: 60px;
 }
 .navbar a{
     font-size: 14px;
@@ -185,12 +185,13 @@ footer .glyphicon {
     padding: 0 !important;
 }
 .navbar-brand img{
+    height: 40px;
     margin-top: 10px;
 }
 @media (min-width: 768px){
     .navbar-nav>li>a {
-        padding-top: 30px;
-        padding-bottom: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 }
 
@@ -233,10 +234,17 @@ h1{
     width: 100%;
     border-radius: 5px;
 }
-
-
+h4{
+    text-transform: capitalize;
+}
+.about h2:not(:first-child){
+    margin-top: 75px;
+}
 
 /************Our-Products************/
+#products{
+    padding-bottom: 25px;
+}
 .our-products h4{
     text-transform: capitalize;
 }
@@ -246,10 +254,43 @@ h1{
 
 
 
+/************Benefits-Products************/
+#benefits span{
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px rgba(0,0,0, .1);
+    padding: 25px;
+}
+#benefits h4{
+    margin-top: 20px;
+}
+
+/************Sizes-Products************/
+#sizes, #benefits{
+    padding-bottom: 40px;
+}
+#sizes .well{
+    box-shadow: 0px 0px 20px rgba(0,0,0, .1);
+    border-radius: 50px;
+    border: 0;
+    background: none;
+}
+#sizes h2, #benefits h2{
+    margin-bottom: 40px;
+}
+#sizes h3{
+    font-weight: 600;
+    line-height: inherit;
+    color: #f8971d;
+    margin: 0;
+}
+
+
 /************footer************/
-footer{
-    background: #231502;
-    margin-top: 25px;
+
+footer img{
+    height: 40px;
+    margin-bottom: 10px;
 }
 .footer-content{
     padding: 50px 0;
@@ -262,21 +303,21 @@ footer ul li:not(:first-child){
     margin-top: 5px;
 }
 .footer-copyright{
-    background: #130b02;
-    height: 70px;
+    background: #efeeee;
+    height: 50px;
     display: flex;
     align-items: center;
 }
 .footer-copyright p{
     margin: 0 auto;
     font-size: 13px;
-    color: #ffff;
+    color: #757575;
 }
 .footer-copyright a{
-    color: #ffff;    
+    color: #757575;    
 }
 footer a, footer{
-    color: #ffff;
+    color: #757575;
 }
 footer a:hover{
     color: #f8971d;
@@ -290,4 +331,34 @@ footer a:hover{
 ::-webkit-scrollbar-thumb{
     border-radius: 5px;
     background: #f8971d;
+}
+
+
+@media screen and (max-width: 768px){
+    .banner .banner-text {
+        width: 100%;
+    }
+    .banner p {
+        font-size: 16px;
+    }
+    h1{
+       font-size: 35px; 
+    }
+    .navbar-brand img {
+        margin-left: 15px;
+    }
+    .navbar-nav {        
+        margin: 10px -15px 0 -15px;
+    }
+    .navbar-collapse{
+        border: 0;
+    }
+    .footer-content {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    footer ul{
+        padding-left: 0;
+    }
+
 }
