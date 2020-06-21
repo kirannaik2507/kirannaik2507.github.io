@@ -285,6 +285,18 @@ footer img{
     height: 40px;
     margin-bottom: 10px;
 }
+footer h4{
+    margin: 0;
+}
+footer .founder span{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    display: block;
+    color: #202020;
+}
+footer h4{
+    color: #f8971d;
+}
 .footer-content{
     padding: 50px 0;
 }
